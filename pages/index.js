@@ -662,13 +662,18 @@ df74302 Merge PR #10: feature/issue-5-aesthetics                                
 5ee3de2 feat(auth): complete migration to Firebase Social Login and Session Cookies  (Nguyen Tam Duc)
 2dd223e chore: initial framework structure                                           (Nguyen Tam Duc)`}</code></pre>
         {/* ── SELF-REPORTS ── */}
-        <h2>📋 Self-Reports (Báo cáo cá nhân)</h2>
-        <p>Mỗi thành viên tự đánh giá đóng góp cá nhân theo template:</p>
-        <ul>
-          <li><a href="/self-report-24020010">Self-Report — Châu Tuấn Kiệt (24020010)</a></li>
-          <li><a href="/self-report-2420008">Self-Report — Trần Võ Bá Vương (2420008)</a></li>
-          <li><a href="/self-report-duc">Self-Report — Nguyễn Tâm Đức</a></li>
-        </ul>
+        <h2>📋 Self-Reports</h2>
+        <p>Each member committed a self-report file to <code>docs/self-reports/self-report-[StudentID].md</code> in the repository.</p>
+        <table>
+          <thead>
+            <tr><th>Full Name</th><th>Student ID</th><th>Self-Report Link</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Nguyen Tam Duc</td><td>(fill in)</td><td><a href="/self-report-duc">self-report-duc.md</a></td></tr>
+            <tr><td>Tran Vo Ba Vuong</td><td>2420008</td><td><a href="/self-report-2420008">self-report-vuong.md</a></td></tr>
+            <tr><td>Chau Tuan Kiet</td><td>24020010</td><td><a href="/self-report-24020010">self-report-kiet.md</a></td></tr>
+          </tbody>
+        </table>
 
         <h3>Contribution Score &amp; Split</h3>
         <table>
