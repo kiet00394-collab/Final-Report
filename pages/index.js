@@ -135,12 +135,16 @@ pnpm build          # Build via Turborepo
               <td><strong>Nguyen Tam Duc</strong><br/>(tdu._cn)</td>
               <td><span className="badge badge-blue">Team Lead</span> <span className="badge badge-green">Backend</span></td>
               <td>
-                <strong>Database Architecture:</strong> Designed 14-table PostgreSQL schema, configured Drizzle ORM, wrote all repositories (Transaction, Bill, Goal, Budget, Category, Analytics).
-                <br/><strong>Budget Engine &amp; S2S:</strong> Built the Safe-to-Spend calculation engine and dashboard refactoring — <code>f650aed</code> feat(api,web): refactor dashboard and S2S engine (#152).
-                <br/><strong>AI Integration:</strong> Implemented AI Quick Add with Gemini NLP parsing — <code>8b3ca4b</code> feat(api,web): AI Quick Add with Gemini integration (#150).
-                <br/><strong>Wallet &amp; Analytics:</strong> Enhanced wallet integration and analytics features — <code>1439c58</code> feat(web): wallet integration and analytics (#154).
-                <br/><strong>Zod Schemas:</strong> Created shared validation schemas in <code>packages/shared-schemas</code> ensuring type-safety end-to-end.
-                <br/><strong>Pull Request Management:</strong> Reviewed and merged PRs (#156, #157).
+                <strong>Project Leadership &amp; Architecture:</strong> Led the team, defined the Budget-First vision, designed the monorepo structure (Turborepo + pnpm workspaces: <code>apps/api</code>, <code>apps/web</code>, <code>apps/worker</code>, <code>packages/db</code>, <code>packages/api-client</code>, <code>packages/shared-schemas</code>, <code>packages/cache</code>).
+                <br/><strong>Database Architecture:</strong> Designed the complete 14-table PostgreSQL schema, configured Drizzle ORM with migration system, wrote all repositories (Transaction, Bill, Goal, Budget, Category, Analytics). Cleaned up unused tables — <code>9637add</code> chore(db): remove unused budget_wallets table (#17).
+                <br/><strong>ERD &amp; Documentation:</strong> Created the Entity-Relationship Diagram in <code>doc/wiki/erd.md</code> using Mermaid, wrote comprehensive ARCHITECTURE.md.
+                <br/><strong>Hono API Architecture:</strong> Designed the full REST API layer with 12 route groups (<code>/api/auth</code>, <code>/api/v1/transactions</code>, <code>/api/v1/wallets</code>, <code>/api/v1/budgets</code>, <code>/api/v1/goals</code>, <code>/api/v1/bills</code>, <code>/api/v1/categories</code>, <code>/api/v1/analytics</code>, <code>/api/v1/user</code>, <code>/api/v1/notifications</code>, <code>/api/v1/ai</code>, <code>/api/v1/health</code>).
+                <br/><strong>Budget Engine &amp; S2S:</strong> Built the Safe-to-Spend calculation engine with category-based budget tracking and dashboard refactoring — <code>f650aed</code> feat(api,web): refactor dashboard and S2S engine (#152).
+                <br/><strong>AI Integration:</strong> Implemented AI Quick Add with Gemini NLP parsing, auto-detecting categories and amounts from natural language — <code>8b3ca4b</code> feat(api,web): AI Quick Add with Gemini integration (#150).
+                <br/><strong>Wallet &amp; Analytics:</strong> Built multi-wallet management API with inter-wallet transfers, analytics aggregation, and spending breakdown — <code>1439c58</code> feat(web): wallet integration and analytics (#154).
+                <br/><strong>Zod Validation Schemas:</strong> Created shared validation schemas in <code>packages/shared-schemas</code> ensuring full type-safety from API to frontend.
+                <br/><strong>Seed Data:</strong> Built database seeding scripts for demo and testing data.
+                <br/><strong>Pull Request Management:</strong> Reviewed and merged PRs (#156, #157), maintained code quality across the team.
               </td>
             </tr>
             <tr>
@@ -265,13 +269,13 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
             <tr><th>Page</th><th>URL / Route</th><th>Description</th><th>Implemented By</th></tr>
           </thead>
           <tbody>
-            <tr><td>Dashboard</td><td><code>/</code></td><td>Budget-First overview: Safe-to-Spend, ring chart, goals, upcoming bills</td><td>Chau Tuan Kiet</td></tr>
-            <tr><td>Transactions</td><td><code>/transactions</code></td><td>Transaction list with search, filter, import/export, full CRUD</td><td>Chau Tuan Kiet</td></tr>
-            <tr><td>Wallets</td><td><code>/wallets</code></td><td>Multi-wallet management with inter-wallet transfers</td><td>Chau Tuan Kiet</td></tr>
-            <tr><td>Budgets</td><td><code>/budgets</code></td><td>Set category budgets, track spending percentages</td><td>Chau Tuan Kiet</td></tr>
-            <tr><td>Goals</td><td><code>/goals</code></td><td>Savings goals with deadlines and progress tracking</td><td>Chau Tuan Kiet</td></tr>
-            <tr><td>Bills</td><td><code>/bills</code></td><td>Manage recurring bills, payment history</td><td>Chau Tuan Kiet</td></tr>
-            <tr><td>Analytics</td><td><code>/analytics</code></td><td>Income/expense charts, category spending breakdown</td><td>Chau Tuan Kiet</td></tr>
+            <tr><td>Dashboard</td><td><code>/</code></td><td>Budget-First overview: Safe-to-Spend, ring chart, goals, upcoming bills</td><td>Chau Tuan Kiet (UI) + Nguyen Tam Duc (API/S2S Engine)</td></tr>
+            <tr><td>Transactions</td><td><code>/transactions</code></td><td>Transaction list with search, filter, import/export, full CRUD</td><td>Chau Tuan Kiet (UI) + Nguyen Tam Duc (API)</td></tr>
+            <tr><td>Wallets</td><td><code>/wallets</code></td><td>Multi-wallet management with inter-wallet transfers</td><td>Chau Tuan Kiet (UI) + Nguyen Tam Duc (API)</td></tr>
+            <tr><td>Budgets</td><td><code>/budgets</code></td><td>Set category budgets, track spending percentages</td><td>Chau Tuan Kiet (UI) + Nguyen Tam Duc (API/S2S Engine)</td></tr>
+            <tr><td>Goals</td><td><code>/goals</code></td><td>Savings goals with deadlines and progress tracking</td><td>Chau Tuan Kiet (UI) + Nguyen Tam Duc (API)</td></tr>
+            <tr><td>Bills</td><td><code>/bills</code></td><td>Manage recurring bills, payment history</td><td>Chau Tuan Kiet (UI) + Nguyen Tam Duc (API)</td></tr>
+            <tr><td>Analytics</td><td><code>/analytics</code></td><td>Income/expense charts, category spending breakdown</td><td>Chau Tuan Kiet (UI) + Nguyen Tam Duc (API/Analytics Engine)</td></tr>
             <tr><td>Settings</td><td><code>/settings</code></td><td>Category management, profile, language settings</td><td>Chau Tuan Kiet</td></tr>
             <tr><td>Onboarding</td><td><code>/onboarding</code></td><td>4-step wizard for new users</td><td>Chau Tuan Kiet</td></tr>
           </tbody>
