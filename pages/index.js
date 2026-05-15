@@ -661,36 +661,6 @@ df74302 Merge PR #10: feature/issue-5-aesthetics                                
 10dd3c3 feat(budget): implement core budget-first infrastructure (#2)                (Nguyen Tam Duc)
 5ee3de2 feat(auth): complete migration to Firebase Social Login and Session Cookies  (Nguyen Tam Duc)
 2dd223e chore: initial framework structure                                           (Nguyen Tam Duc)`}</code></pre>
-        {/* ── SELF-REPORTS ── */}
-        <h2>📋 Self-Reports</h2>
-        <p>Each member committed a self-report file to <code>docs/self-reports/self-report-[StudentID].md</code> in the repository.</p>
-        <table>
-          <thead>
-            <tr><th>Full Name</th><th>Student ID</th><th>Self-Report Link</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Nguyen Tam Duc</td><td>(fill in)</td><td><a href="/self-report-duc">self-report-duc.md</a></td></tr>
-            <tr><td>Tran Vo Ba Vuong</td><td>2420008</td><td><a href="/self-report-2420008">self-report-vuong.md</a></td></tr>
-            <tr><td>Chau Tuan Kiet</td><td>24020010</td><td><a href="/self-report-24020010">self-report-kiet.md</a></td></tr>
-          </tbody>
-        </table>
-
-        <h3>Contribution Score &amp; Split</h3>
-        <table>
-          <thead>
-            <tr><th>Thành viên</th><th>MSSV</th><th>Vai trò</th><th>Điểm</th><th>% Đóng góp</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Nguyễn Tâm Đức</td><td>(fill in)</td><td>Team Lead / Backend / Database</td><td>10</td><td>40%</td></tr>
-            <tr><td>Châu Tuấn Kiệt</td><td>24020010</td><td>Frontend / UI-UX</td><td>9</td><td>30%</td></tr>
-            <tr><td>Trần Võ Bá Vương</td><td>2420008</td><td>Backend / Auth / DevOps</td><td>9</td><td>30%</td></tr>
-          </tbody>
-        </table>
-
-        <p style={{fontSize:'0.9rem', color:'#888', marginTop:'0.5rem'}}>
-          <em>* Quy tắc tính contribution: commit do một người viết được người khác merge → tính chung cho cả hai. Các commit của tài khoản kiet00394-collab được tính chung cho Kiệt và Vương.</em>
-        </p>
-
         {/* ── FOOTER ── */}
         <footer>
           <p>Final Project Report — Finance Tracker V3 | Team Antigravity | Submission Date: 15/05/2026</p>
