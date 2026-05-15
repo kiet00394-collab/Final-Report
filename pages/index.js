@@ -584,14 +584,14 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
           </tbody>
         </table>
 
-        <h3>Full Commit History (Last 50 Commits with Authors)</h3>
-        <pre><code>{`fff7e94 feat: onboarding wizard 4 buoc - info, wallet, budget, transaction  (Chau Tuan Kiet)
+        <h3>Full Commit History (Last 80 Commits with Authors)</h3>
+        <pre><code>{`── Recent (May 2026) ──
+fff7e94 feat: onboarding wizard 4 buoc - info, wallet, budget, transaction  (Chau Tuan Kiet)
 a152b3b feat: integrate local onboarding wizard actions and deepseek mcp skills (Tran Vo Ba Vuong)
 46ada24 Merge pull request #157 from tducn110/fix/update-lockfile              (Nguyen Tam Duc)
 55beb49 chore: update pnpm-lock.yaml                                           (Tran Vo Ba Vuong)
 5448dc9 Merge pull request #156 from tducn110/fix/issue-155-type-errors        (Nguyen Tam Duc)
 d17a5ae fix(web): resolve type errors and normalize currency formatting         (Tran Vo Ba Vuong)
-caa35b9 fix(web): resolve type errors and normalize currency formatting         (Tran Vo Ba Vuong)
 1439c58 feat(web): enhance wallet integration and analytics (#154)             (Nguyen Tam Duc)
 f650aed feat(api,web): refactor dashboard and S2S engine (#152)                (Nguyen Tam Duc)
 8b3ca4b feat(api,web): implement AI Quick Add with Gemini integration (#150)   (Nguyen Tam Duc)
@@ -603,7 +603,7 @@ fa1a282 fix(vercel): fix auth and api deployment as Next.js route (#144)       (
 1013b1f feat(web): implement CategoryManager component                         (Tran Vo Ba Vuong)
 4898849 feat(web): implement CashWalletWidget component                        (Tran Vo Ba Vuong)
 613a823 feat(system): comprehensive UI refactor and auth optimization          (Tran Vo Ba Vuong)
-a1847d3 Merge pull request #116 from tducn110/fix/102-detailed-error-ux        (Tran Vo Ba Vuong)
+a1847d3 Merge PR #116 from tducn110 (fix/102) — PR by Nguyen Tam Duc           (merged by Tran Vo Ba Vuong)
 75928c3 fix(vercel): remove broken ignoreCommand                               (Tran Vo Ba Vuong)
 804e27f fix(web): parse JSON error responses and display detailed errors (#102)(Tran Vo Ba Vuong)
 1cf5543 fix(web): race condition guard in AuthProvider social login (#101)     (Tran Vo Ba Vuong)
@@ -617,25 +617,50 @@ bfa1c11 docs: update implementation plan and backlog tasks                     (
 c66de08 fix(db): add missing migrations for PostgreSQL and bigint IDs          (Tran Vo Ba Vuong)
 4e629b1 refactor(api,db): eliminate magic strings, migrate console.* to pino   (Tran Vo Ba Vuong)
 c110ddb fix: Vercel API routing, deployment prep, and debug endpoints          (Tran Vo Ba Vuong)
-97b4f4d fix(api,worker,web,db): financial logic integrity — wallet OCC, PostgreSQL compat  (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
-ecd5fb0 fix(worker,web,api): worker DB env, Firebase SSR crash, API/DB/UI updates          (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
-fa7319a feat(ui): tailwind v4 migration and frontend fixes (#87)                            (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
-f393e47 fix: client toSnake interceptor broke all API writes — remove for camelCase API     (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
-49cfa80 fix: wire QuickAddModal and SimpleQuickInput to real API calls (#89)                (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
-59af0c5 feat: backend scale &amp; performance phase 11-15, ui tailwind v4 fixes                (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
-da139ec feat(automation): add recurring bills worker, notifications and settings UI         (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
-7d6a643 chore: resolve typechecking and UI warnings                                         (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
-b4e8551 feat(web): enhance login UI with premium background (Phase 9) &amp; fix worker tsconfig (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
-2a9423d feat: frontend refactor, react-query, optimistic updates (Phases 6-8)              (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
-6c6cdd7 feat(web): complete phase 3 dashboard localization refactor (#78)                   (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
-a5c79b9 feat: complete feature gaps — transfer, categories, empty states, skeletons (Phase 5) (Claude/DeepSeek)
-e510915 feat: wire frontend to real APIs (Phase 4)                                          (Claude/DeepSeek)
-c193b16 fix(db): add walletId to transaction schemas and fix type errors (Phase 3)          (Claude/DeepSeek)
-034fab6 🚀 Release: dev to main (Phase 1 + Phase 2) (#33)                                  (Tran Vo Ba Vuong)
-cdd727c docs: add Phase 2 completion report                                                 (Claude/DeepSeek)
-af1542e feat(db): sync database schema to ERD (migration 0012)                              (Claude/DeepSeek)
-9637add chore(db): remove unused budget_wallets table (#17)                                 (Nguyen Tam Duc)`}</code></pre>
 
+── Collaborative (kiet00394-collab: Chau Tuan Kiet &amp; Tran Vo Ba Vuong) ──
+97b4f4d fix(api,worker,web,db): financial logic integrity — wallet OCC, PostgreSQL compat
+ecd5fb0 fix(worker,web,api): worker DB env, Firebase SSR crash, API/DB/UI updates
+fa7319a feat(ui): tailwind v4 migration and frontend fixes (#87)
+f393e47 fix: client toSnake interceptor broke all API writes — remove for camelCase API
+49cfa80 fix: wire QuickAddModal and SimpleQuickInput to real API calls (#89)
+59af0c5 feat: backend scale &amp; performance phase 11-15, ui tailwind v4 fixes
+da139ec feat(automation): add recurring bills worker, notifications and settings UI
+7d6a643 chore: resolve typechecking and UI warnings
+b4e8551 feat(web): enhance login UI with premium background (Phase 9) &amp; fix worker tsconfig
+2a9423d feat: frontend refactor, react-query, optimistic updates (Phases 6-8)
+6c6cdd7 feat(web): complete phase 3 dashboard localization refactor (#78)
+
+── Nguyen Tam Duc — Phase 3-5 (AI-assisted) ──
+a5c79b9 feat: complete feature gaps — transfer, categories, empty states (Phase 5)    (Nguyen Tam Duc + AI)
+e510915 feat: wire frontend to real APIs (Phase 4)                                    (Nguyen Tam Duc + AI)
+c193b16 fix(db): add walletId to transaction schemas and fix type errors (Phase 3)    (Nguyen Tam Duc + AI)
+cdd727c docs: add Phase 2 completion report                                           (Nguyen Tam Duc + AI)
+af1542e feat(db): sync database schema to ERD (migration 0012)                        (Nguyen Tam Duc + AI)
+
+── Mid-Phase Cleanup &amp; Refactor ──
+034fab6 🚀 Release: dev to main (Phase 1 + Phase 2) (#33)                            (Tran Vo Ba Vuong)
+9637add chore(db): remove unused budget_wallets table (#17)                           (Nguyen Tam Duc)
+4d4aa58 chore: cleanup legacy UI components and JS schemas (#15)                     (Nguyen Tam Duc)
+32a91f4 feat(ui): refactor dashboard pages to container-presentational pattern       (Nguyen Tam Duc)
+9fd9950 chore: add clean mcp_config.json                                             (Nguyen Tam Duc)
+60e3945 docs: reorganize documentation and add repomix-output.xml                    (Nguyen Tam Duc)
+3904c75 fix(api): correct project_id casing in firebase auth init                    (Nguyen Tam Duc)
+d1974e2 chore: clean up remaining AI tool directories                                (Nguyen Tam Duc)
+4340af4 feat(doc): finalize documentation reorganization and gitignore update        (Nguyen Tam Duc)
+
+── Nguyen Tam Duc — Early Phase (Foundation) ──
+c5bc5ef Merge PR #7: implement budget-first UI and API services                      (Nguyen Tam Duc)
+df74302 Merge PR #10: feature/issue-5-aesthetics                                     (Nguyen Tam Duc)
+15b0798 Merge PR #9: feature/issue-4-quick-add                                       (Nguyen Tam Duc)
+28f459f Merge PR #8: feature/issue-3-multi-wallet                                    (Nguyen Tam Duc)
+91b63c4 Merge PR #6: feature/issue-2-budget-core                                     (Nguyen Tam Duc)
+3749f98 feat(ui): implement global UI design reframing v3 aesthetics (#5)            (Nguyen Tam Duc)
+3b1395d feat(quick-add): enhanced quick-add components with NLP and Simple modes (#4)(Nguyen Tam Duc)
+180fd8a feat(wallet): implement multi-wallet management and sync UI (#3)             (Nguyen Tam Duc)
+10dd3c3 feat(budget): implement core budget-first infrastructure (#2)                (Nguyen Tam Duc)
+5ee3de2 feat(auth): complete migration to Firebase Social Login and Session Cookies  (Nguyen Tam Duc)
+2dd223e chore: initial framework structure                                           (Nguyen Tam Duc)`}</code></pre>
         {/* ── FOOTER ── */}
         <footer>
           <p>Final Project Report — Finance Tracker V3 | Team Antigravity | Submission Date: 15/05/2026</p>
