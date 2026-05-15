@@ -37,7 +37,7 @@ export default function Home() {
           <tbody>
             <tr><td>Nguyen Tam Duc</td><td>(fill in)</td><td>Team Lead / Backend / Database / Architecture</td></tr>
             <tr><td>Tran Vo Ba Vuong</td><td>2420008</td><td>Backend / Auth / Middleware / DevOps / Worker</td></tr>
-            <tr><td>Chau Tuan Kiet</td><td>(fill in)</td><td>Frontend / UI-UX / Dashboard / Components</td></tr>
+            <tr><td>Chau Tuan Kiet</td><td>24020010</td><td>Frontend / UI-UX / Dashboard / Components</td></tr>
           </tbody>
         </table>
 
@@ -661,6 +661,31 @@ df74302 Merge PR #10: feature/issue-5-aesthetics                                
 10dd3c3 feat(budget): implement core budget-first infrastructure (#2)                (Nguyen Tam Duc)
 5ee3de2 feat(auth): complete migration to Firebase Social Login and Session Cookies  (Nguyen Tam Duc)
 2dd223e chore: initial framework structure                                           (Nguyen Tam Duc)`}</code></pre>
+        {/* ── SELF-REPORTS ── */}
+        <h2>📋 Self-Reports (Báo cáo cá nhân)</h2>
+        <p>Mỗi thành viên tự đánh giá đóng góp cá nhân theo template:</p>
+        <ul>
+          <li><a href="/self-report-24020010">Self-Report — Châu Tuấn Kiệt (24020010)</a></li>
+          <li><a href="/self-report-2420008">Self-Report — Trần Võ Bá Vương (2420008)</a></li>
+          <li><a href="/self-report-duc">Self-Report — Nguyễn Tâm Đức</a></li>
+        </ul>
+
+        <h3>Contribution Score &amp; Split</h3>
+        <table>
+          <thead>
+            <tr><th>Thành viên</th><th>MSSV</th><th>Vai trò</th><th>Điểm</th><th>% Đóng góp</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Nguyễn Tâm Đức</td><td>(fill in)</td><td>Team Lead / Backend / Database</td><td>10</td><td>40%</td></tr>
+            <tr><td>Châu Tuấn Kiệt</td><td>24020010</td><td>Frontend / UI-UX</td><td>9</td><td>30%</td></tr>
+            <tr><td>Trần Võ Bá Vương</td><td>2420008</td><td>Backend / Auth / DevOps</td><td>9</td><td>30%</td></tr>
+          </tbody>
+        </table>
+
+        <p style={{fontSize:'0.9rem', color:'#888', marginTop:'0.5rem'}}>
+          <em>* Quy tắc tính contribution: commit do một người viết được người khác merge → tính chung cho cả hai. Các commit của tài khoản kiet00394-collab được tính chung cho Kiệt và Vương.</em>
+        </p>
+
         {/* ── FOOTER ── */}
         <footer>
           <p>Final Project Report — Finance Tracker V3 | Team Antigravity | Submission Date: 15/05/2026</p>
