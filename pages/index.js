@@ -632,18 +632,6 @@ cdd727c docs: add Phase 2 completion report                                     
 af1542e feat(db): sync database schema to ERD (migration 0012)                              (Claude/DeepSeek)
 9637add chore(db): remove unused budget_wallets table (#17)                                 (Nguyen Tam Duc)`}</code></pre>
 
-        <h3>Contribution Summary (by Commit Count)</h3>
-        <table>
-          <thead>
-            <tr><th>Member</th><th>GitHub User</th><th>Recent Commits</th><th>Primary Areas</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Tran Vo Ba Vuong</td><td>ViccVuongVicc</td><td>33 commits (22 solo + 11 collab)</td><td>Auth, API hardening, Vercel deployment, UI components, system refactor, bug fixes, collaborative frontend work</td></tr>
-            <tr><td>Nguyen Tam Duc</td><td>tdu._cn</td><td>7 commits</td><td>Database schema, S2S engine, AI integration, wallet/analytics, PR management</td></tr>
-            <tr><td>Chau Tuan Kiet</td><td>Chau Tuan Kiet / kiet00394-collab</td><td>12 commits (1 solo + 11 collab)</td><td>Onboarding wizard, collaborative frontend/backend work, React Query, Tailwind v4 migration, login UI, notifications UI</td></tr>
-          </tbody>
-        </table>
-
         {/* ── FOOTER ── */}
         <footer>
           <p>Final Project Report — Finance Tracker V3 | Team Antigravity | Submission Date: 15/05/2026</p>
