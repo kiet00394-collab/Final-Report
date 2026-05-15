@@ -161,7 +161,19 @@ pnpm build          # Build via Turborepo
               <td><strong>Chau Tuan Kiet</strong></td>
               <td><span className="badge badge-blue">Frontend</span> <span className="badge badge-green">UI/UX</span></td>
               <td>
-                <strong>Onboarding Wizard:</strong> Built 4-step onboarding flow (personal info, wallet, budget, first transaction) — <code>fff7e94</code> feat: onboarding wizard 4 buoc.
+                <strong>Onboarding Wizard:</strong> Built 4-step onboarding flow (personal info, wallet, budget, first transaction) — <code>fff7e94</code> feat: onboarding wizard 4 buoc. Later integrated local onboarding actions with DeepSeek MCP skills — <code>a152b3b</code> (collaboration with Tran Vo Ba Vuong).
+                <br/><strong>Collaborative Commits (kiet00394-collab, 11 commits with Tran Vo Ba Vuong):</strong>
+                <br/>&nbsp;&nbsp;• Financial logic integrity: wallet OCC, audit trails, PostgreSQL compat, boolean schemas — <code>97b4f4d</code>
+                <br/>&nbsp;&nbsp;• Worker DB env, Firebase SSR crash fix, cache headers, API/DB/UI updates — <code>ecd5fb0</code>
+                <br/>&nbsp;&nbsp;• Tailwind v4 migration and frontend fixes — <code>fa7319a</code>
+                <br/>&nbsp;&nbsp;• Fixed toSnake interceptor breaking all API writes — <code>f393e47</code>
+                <br/>&nbsp;&nbsp;• Wired QuickAddModal and SimpleQuickInput to real API — <code>49cfa80</code>
+                <br/>&nbsp;&nbsp;• Backend scale &amp; performance (Phase 11-15), UI Tailwind v4 fixes — <code>59af0c5</code>
+                <br/>&nbsp;&nbsp;• Recurring bills worker, notifications and settings UI — <code>da139ec</code>
+                <br/>&nbsp;&nbsp;• Resolved typechecking and UI warnings — <code>7d6a643</code>
+                <br/>&nbsp;&nbsp;• Enhanced login UI with premium background and loading state (Phase 9) — <code>b4e8551</code>
+                <br/>&nbsp;&nbsp;• Frontend refactor, React Query, optimistic updates (Phases 6-8) — <code>2a9423d</code>
+                <br/>&nbsp;&nbsp;• Dashboard localization refactor (Phase 3) — <code>6c6cdd7</code>
                 <br/><strong>Dashboard:</strong> Budget-First layout with Safe-to-Spend display, ring chart, goals overview, upcoming bills.
                 <br/><strong>All Pages:</strong> Transactions (search/filter/sort/CRUD), Wallets (multi-wallet + transfers), Budgets (setup &amp; tracking), Goals (progress tracking), Bills (recurring management), Analytics (charts), Settings (categories &amp; profile).
                 <br/><strong>Auth UI:</strong> Firebase social login integration (Google, Facebook, GitHub, Apple) with loading states.
@@ -234,7 +246,15 @@ f650aed feat(api,web): refactor dashboard and S2S engine (#152)            (Nguy
 fa1a282 fix(vercel): fix auth and api deployment as Next.js route (#144)   (Tran Vo Ba Vuong)
 4e629b1 refactor(api,db): eliminate magic strings, migrate to pino          (Tran Vo Ba Vuong)
 d17a5ae fix(web): resolve type errors and normalize currency formatting     (Tran Vo Ba Vuong)
-1cf5543 fix(web): race condition guard in AuthProvider (#101)               (Tran Vo Ba Vuong)`}</code></pre>
+1cf5543 fix(web): race condition guard in AuthProvider (#101)               (Tran Vo Ba Vuong)
+
+── Collaborative (kiet00394-collab: Chau Tuan Kiet &amp; Tran Vo Ba Vuong) ──
+2a9423d feat: frontend refactor, react-query, optimistic updates (Phases 6-8)
+b4e8551 feat(web): enhance login UI with premium background (Phase 9)
+59af0c5 feat: backend scale &amp; performance phase 11-15, ui tailwind v4 fixes
+fa7319a feat(ui): tailwind v4 migration and frontend fixes (#87)
+97b4f4d fix: financial logic integrity — wallet OCC, PostgreSQL compat
+da139ec feat(automation): add recurring bills worker, notifications &amp; settings UI`}</code></pre>
 
         {/* ── TASK 2 ── */}
         <h2>Task 2 — Implement User Interface</h2>
@@ -560,8 +580,9 @@ d17a5ae fix(web): resolve type errors and normalize currency formatting     (Tra
           </tbody>
         </table>
 
-        <h3>Full Commit History (Last 30 Commits with Authors)</h3>
+        <h3>Full Commit History (Last 50 Commits with Authors)</h3>
         <pre><code>{`fff7e94 feat: onboarding wizard 4 buoc - info, wallet, budget, transaction  (Chau Tuan Kiet)
+a152b3b feat: integrate local onboarding wizard actions and deepseek mcp skills (Tran Vo Ba Vuong)
 46ada24 Merge pull request #157 from tducn110/fix/update-lockfile              (Nguyen Tam Duc)
 55beb49 chore: update pnpm-lock.yaml                                           (Tran Vo Ba Vuong)
 5448dc9 Merge pull request #156 from tducn110/fix/issue-155-type-errors        (Nguyen Tam Duc)
@@ -590,7 +611,26 @@ eb079e8 fix(api): remove dead imports for cold start optimization (#97)        (
 48aed12 fix(web): parse JSON error responses and display detailed errors (#102)(Tran Vo Ba Vuong)
 bfa1c11 docs: update implementation plan and backlog tasks                     (Tran Vo Ba Vuong)
 c66de08 fix(db): add missing migrations for PostgreSQL and bigint IDs          (Tran Vo Ba Vuong)
-4e629b1 refactor(api,db): eliminate magic strings, migrate console.* to pino   (Tran Vo Ba Vuong)`}</code></pre>
+4e629b1 refactor(api,db): eliminate magic strings, migrate console.* to pino   (Tran Vo Ba Vuong)
+c110ddb fix: Vercel API routing, deployment prep, and debug endpoints          (Tran Vo Ba Vuong)
+97b4f4d fix(api,worker,web,db): financial logic integrity — wallet OCC, PostgreSQL compat  (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
+ecd5fb0 fix(worker,web,api): worker DB env, Firebase SSR crash, API/DB/UI updates          (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
+fa7319a feat(ui): tailwind v4 migration and frontend fixes (#87)                            (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
+f393e47 fix: client toSnake interceptor broke all API writes — remove for camelCase API     (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
+49cfa80 fix: wire QuickAddModal and SimpleQuickInput to real API calls (#89)                (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
+59af0c5 feat: backend scale &amp; performance phase 11-15, ui tailwind v4 fixes                (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
+da139ec feat(automation): add recurring bills worker, notifications and settings UI         (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
+7d6a643 chore: resolve typechecking and UI warnings                                         (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
+b4e8551 feat(web): enhance login UI with premium background (Phase 9) &amp; fix worker tsconfig (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
+2a9423d feat: frontend refactor, react-query, optimistic updates (Phases 6-8)              (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
+6c6cdd7 feat(web): complete phase 3 dashboard localization refactor (#78)                   (Chau Tuan Kiet &amp; Tran Vo Ba Vuong)
+a5c79b9 feat: complete feature gaps — transfer, categories, empty states, skeletons (Phase 5) (Claude/DeepSeek)
+e510915 feat: wire frontend to real APIs (Phase 4)                                          (Claude/DeepSeek)
+c193b16 fix(db): add walletId to transaction schemas and fix type errors (Phase 3)          (Claude/DeepSeek)
+034fab6 🚀 Release: dev to main (Phase 1 + Phase 2) (#33)                                  (Tran Vo Ba Vuong)
+cdd727c docs: add Phase 2 completion report                                                 (Claude/DeepSeek)
+af1542e feat(db): sync database schema to ERD (migration 0012)                              (Claude/DeepSeek)
+9637add chore(db): remove unused budget_wallets table (#17)                                 (Nguyen Tam Duc)`}</code></pre>
 
         <h3>Contribution Summary (by Commit Count)</h3>
         <table>
@@ -598,9 +638,9 @@ c66de08 fix(db): add missing migrations for PostgreSQL and bigint IDs          (
             <tr><th>Member</th><th>GitHub User</th><th>Recent Commits</th><th>Primary Areas</th></tr>
           </thead>
           <tbody>
-            <tr><td>Tran Vo Ba Vuong</td><td>ViccVuongVicc</td><td>22 commits</td><td>Auth, API hardening, Vercel deployment, UI components, system refactor, bug fixes</td></tr>
-            <tr><td>Nguyen Tam Duc</td><td>tdu._cn</td><td>6 commits</td><td>Database schema, S2S engine, AI integration, wallet/analytics, PR management</td></tr>
-            <tr><td>Chau Tuan Kiet</td><td>Chau Tuan Kiet</td><td>1 commit</td><td>Onboarding wizard, all frontend pages, responsive UI, TanStack Query</td></tr>
+            <tr><td>Tran Vo Ba Vuong</td><td>ViccVuongVicc</td><td>33 commits (22 solo + 11 collab)</td><td>Auth, API hardening, Vercel deployment, UI components, system refactor, bug fixes, collaborative frontend work</td></tr>
+            <tr><td>Nguyen Tam Duc</td><td>tdu._cn</td><td>7 commits</td><td>Database schema, S2S engine, AI integration, wallet/analytics, PR management</td></tr>
+            <tr><td>Chau Tuan Kiet</td><td>Chau Tuan Kiet / kiet00394-collab</td><td>12 commits (1 solo + 11 collab)</td><td>Onboarding wizard, collaborative frontend/backend work, React Query, Tailwind v4 migration, login UI, notifications UI</td></tr>
           </tbody>
         </table>
 
