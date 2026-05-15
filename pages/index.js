@@ -527,21 +527,6 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
           <li className="done"><strong>Vercel Deployment</strong> — <a href="https://finance-for-me-local.vercel.app" target="_blank" rel="noopener">finance-for-me-local.vercel.app</a></li>
         </ul>
 
-        {/* ── SELF-REPORTS ── */}
-        <h2>Self-Reports</h2>
-        <p>Each member committed a self-report file to <code>docs/self-reports/self-report-[StudentID].md</code> in the repository.</p>
-
-        <table>
-          <thead>
-            <tr><th>Full Name</th><th>Student ID</th><th>Self-Report Link</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>Nguyen Tam Duc</td><td>(fill in)</td><td><a href="https://github.com/tducn110/Tracker_yourMoney/blob/main/docs/self-reports/self-report-duc.md" target="_blank" rel="noopener">self-report-duc.md</a></td></tr>
-            <tr><td>Tran Vo Ba Vuong</td><td>2420008</td><td><a href="https://github.com/tducn110/Tracker_yourMoney/blob/main/docs/self-reports/self-report-vuong.md" target="_blank" rel="noopener">self-report-vuong.md</a></td></tr>
-            <tr><td>Chau Tuan Kiet</td><td>(fill in)</td><td><a href="https://github.com/tducn110/Tracker_yourMoney/blob/main/docs/self-reports/self-report-kiet.md" target="_blank" rel="noopener">self-report-kiet.md</a></td></tr>
-          </tbody>
-        </table>
-
         {/* ── APPENDIX ── */}
         <h2>Appendix — Codebase Evidence</h2>
 
