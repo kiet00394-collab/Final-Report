@@ -5,7 +5,7 @@ export default function SelfReportVuong() {
   return (
     <>
       <Head>
-        <title>Self-Report 2402008 — Tran Vo Ba Vuong | Finance Tracker V3</title>
+        <title>Self-Report 24020008 — Tran Vo Ba Vuong | Finance Tracker V3</title>
       </Head>
 
       <header>
@@ -20,7 +20,7 @@ export default function SelfReportVuong() {
         <table>
           <tbody>
             <tr><td><strong>Full Name</strong></td><td>Tran Vo Ba Vuong</td></tr>
-            <tr><td><strong>Student ID</strong></td><td>2402008</td></tr>
+            <tr><td><strong>Student ID</strong></td><td>24020008</td></tr>
             <tr><td><strong>Team</strong></td><td>Antigravity</td></tr>
             <tr><td><strong>Role</strong></td><td>Backend / Auth / Middleware / DevOps / Worker</td></tr>
           </tbody>
