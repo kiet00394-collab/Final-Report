@@ -16,73 +16,73 @@ export default function SelfReportVuong() {
 
       <div className="container">
 
-        <h2>Thông tin cá nhân</h2>
+        <h2>Personal Information</h2>
         <table>
           <tbody>
-            <tr><td><strong>Họ tên</strong></td><td>Trần Võ Bá Vương</td></tr>
-            <tr><td><strong>MSSV</strong></td><td>2420008</td></tr>
-            <tr><td><strong>Nhóm</strong></td><td>Antigravity</td></tr>
-            <tr><td><strong>Vai trò</strong></td><td>Backend / Auth / Middleware / DevOps / Worker</td></tr>
+            <tr><td><strong>Full Name</strong></td><td>Tran Vo Ba Vuong</td></tr>
+            <tr><td><strong>Student ID</strong></td><td>2420008</td></tr>
+            <tr><td><strong>Team</strong></td><td>Antigravity</td></tr>
+            <tr><td><strong>Role</strong></td><td>Backend / Auth / Middleware / DevOps / Worker</td></tr>
           </tbody>
         </table>
 
         <h2>Task 1 — Planning &amp; Setup</h2>
-        <p><strong>Tuần:</strong> 01/04/2026 – 15/04/2026</p>
+        <p><strong>Week:</strong> 01/04/2026 – 15/04/2026</p>
 
-        <h3>Công việc đã làm:</h3>
+        <h3>Work Done:</h3>
         <ul>
-          <li>Tham gia họp nhóm chọn đề tài, phân tích yêu cầu và lên kế hoạch phát triển</li>
-          <li>Thiết kế kiến trúc Backend: Hono API (Node.js) embedded trong Next.js App Router</li>
-          <li>Setup Monorepo với Turborepo + pnpm Workspace: apps/api, apps/web, apps/worker, packages/db, packages/api-client, packages/shared-schemas, packages/cache</li>
-          <li>Thiết lập Firebase Authentication với 4 social providers (Google, Facebook, GitHub, Apple)</li>
-          <li>Thiết kế JWT flow: Firebase ID Token → JWT Access Token → session cookie (14-day TTL)</li>
-          <li>Setup Sentry Node SDK và Pino structured logging</li>
+          <li>Participated in team meetings to select the topic, analyze requirements, and plan the development roadmap</li>
+          <li>Designed Backend architecture: Hono API (Node.js) embedded in Next.js App Router</li>
+          <li>Set up Monorepo with Turborepo + pnpm Workspace: apps/api, apps/web, apps/worker, packages/db, packages/api-client, packages/shared-schemas, packages/cache</li>
+          <li>Configured Firebase Authentication with 4 social providers (Google, Facebook, GitHub, Apple)</li>
+          <li>Designed JWT flow: Firebase ID Token → JWT Access Token → session cookie (14-day TTL)</li>
+          <li>Set up Sentry Node SDK and Pino structured logging</li>
         </ul>
 
-        <h3>Bằng chứng đóng góp:</h3>
+        <h3>Evidence of Contribution:</h3>
         <ul>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/034fab6" target="_blank" rel="noopener">034fab6</a> — 🚀 Release: dev to main (Phase 1 + Phase 2)</li>
           <li>Monorepo structure: Turborepo, pnpm workspace, 7 packages</li>
         </ul>
 
-        <h3>Đánh giá bản thân:</h3>
+        <h3>Self-Assessment:</h3>
         <p>9/10</p>
 
         <h2>Task 2 — UI Implementation</h2>
-        <p><strong>Tuần:</strong> 15/04/2026 – 05/05/2026</p>
+        <p><strong>Week:</strong> 15/04/2026 – 05/05/2026</p>
 
-        <h3>Công việc đã làm:</h3>
+        <h3>Work Done:</h3>
         <ul>
-          <li><strong>Comprehensive UI refactor và auth optimization (#129-#136):</strong> <code>613a823</code> — multi-commit refactor cải thiện UI consistency và auth flow</li>
-          <li><strong>CategoryManager component:</strong> <code>1013b1f</code> — component quản lý danh mục chi tiêu</li>
-          <li><strong>CashWalletWidget component:</strong> <code>4898849</code> — widget hiển thị ví tiền mặt</li>
-          <li><strong>useMounted hook:</strong> <code>08d5053</code> — xử lý client-side rendering hydration</li>
-          <li><strong>Auth UI improvements:</strong> Social login flow với Facebook, GitHub, Apple, Google</li>
-          <li>Tham gia code chung 11 commits với Kiệt qua tài khoản kiet00394-collab</li>
+          <li><strong>Comprehensive UI refactor and auth optimization (#129-#136):</strong> <code>613a823</code> — multi-commit refactor improving UI consistency and auth flow</li>
+          <li><strong>CategoryManager component:</strong> <code>1013b1f</code> — expense category management component</li>
+          <li><strong>CashWalletWidget component:</strong> <code>4898849</code> — cash wallet display widget</li>
+          <li><strong>useMounted hook:</strong> <code>08d5053</code> — client-side rendering hydration handler</li>
+          <li><strong>Auth UI improvements:</strong> Social login flow with Facebook, GitHub, Apple, Google</li>
+          <li>Co-authored 11 collaborative commits with Kiet via the kiet00394-collab account</li>
         </ul>
 
-        <h3>Bằng chứng đóng góp:</h3>
+        <h3>Evidence of Contribution:</h3>
         <ul>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/613a823" target="_blank" rel="noopener">613a823</a> — comprehensive UI refactor and auth optimization (#129-#136)</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/1013b1f" target="_blank" rel="noopener">1013b1f</a> — CategoryManager component</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/4898849" target="_blank" rel="noopener">4898849</a> — CashWalletWidget component</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/08d5053" target="_blank" rel="noopener">08d5053</a> — useMounted hook</li>
-          <li>Collab commits (kiet00394-collab): 11 commits với Chau Tuan Kiet</li>
+          <li>Collab commits (kiet00394-collab): 11 commits with Chau Tuan Kiet</li>
         </ul>
 
-        <h3>Khó khăn gặp phải:</h3>
+        <h3>Challenges Encountered:</h3>
         <ul>
-          <li>Firebase SSR authentication gây crash trên Vercel, cần debug kỹ server-side rendering flow</li>
-          <li>Multi-provider social login đòi hỏi xử lý nhất quán giữa Firebase, JWT và session cookies</li>
+          <li>Firebase SSR authentication caused crashes on Vercel, requiring extensive debugging of the server-side rendering flow</li>
+          <li>Multi-provider social login required consistent handling between Firebase, JWT, and session cookies</li>
         </ul>
 
-        <h3>Đánh giá bản thân:</h3>
+        <h3>Self-Assessment:</h3>
         <p>9/10</p>
 
         <h2>Task 3 — Database Integration</h2>
-        <p><strong>Tuần:</strong> 22/04/2026 – 28/04/2026</p>
+        <p><strong>Week:</strong> 22/04/2026 – 28/04/2026</p>
 
-        <h3>Công việc đã làm:</h3>
+        <h3>Work Done:</h3>
         <ul>
           <li><strong>Fix Vercel deployment:</strong> <code>fa1a282</code> — embed Hono API as Next.js route handler</li>
           <li><strong>API routing refactor:</strong> <code>77b9634</code> — sync lockfile, refactor API routing for Vercel compatibility</li>
@@ -98,7 +98,7 @@ export default function SelfReportVuong() {
           <li><strong>Cold start fix:</strong> <code>eb079e8</code> — remove dead imports and redundant env init</li>
         </ul>
 
-        <h3>Bằng chứng đóng góp:</h3>
+        <h3>Evidence of Contribution:</h3>
         <ul>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/fa1a282" target="_blank" rel="noopener">fa1a282</a> — fix Vercel auth and api deployment</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/c66de08" target="_blank" rel="noopener">c66de08</a> — PostgreSQL compatibility migrations</li>
@@ -108,97 +108,97 @@ export default function SelfReportVuong() {
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/1cf5543" target="_blank" rel="noopener">1cf5543</a> — social login race condition guard</li>
         </ul>
 
-        <h3>Đánh giá bản thân:</h3>
+        <h3>Self-Assessment:</h3>
         <p>9/10</p>
 
         <h2>Task 4 — Optimization</h2>
-        <p><strong>Tuần:</strong> 28/04/2026 – 12/05/2026</p>
+        <p><strong>Week:</strong> 28/04/2026 – 12/05/2026</p>
 
-        <h3>Công việc đã làm:</h3>
+        <h3>Work Done:</h3>
         <ul>
           <li><strong>Pino logging:</strong> <code>4e629b1</code> — eliminate magic strings, fix any types, replace console.* with Pino structured logging</li>
-          <li><strong>Sentry monitoring:</strong> Integrated Sentry Node SDK cho error monitoring API errors, database connection failures, auth failures, validation errors</li>
+          <li><strong>Sentry monitoring:</strong> Integrated Sentry Node SDK for error monitoring — API errors, database connection failures, auth failures, validation errors</li>
           <li><strong>Lockfile sync:</strong> <code>55beb49</code> — update pnpm-lock.yaml; <code>77b9634</code> — sync lockfile, refactor API routing</li>
           <li><strong>Cleanup:</strong> <code>776aa12</code> — remove unused imports, fix eslint configs, update deps</li>
           <li><strong>Vercel deployment:</strong> <code>c110ddb</code> — Vercel API routing, deployment prep, debug endpoints</li>
           <li><strong>Documentation:</strong> <code>bfa1c11</code> — update implementation plan and backlog tasks</li>
           <li><strong>Vercel ignore fix:</strong> <code>75928c3</code> — remove broken ignoreCommand</li>
-          <li><strong>Collab:</strong> <code>59af0c5</code> — backend scale & performance Phase 11-15 (kiet00394-collab)</li>
+          <li><strong>Collab:</strong> <code>59af0c5</code> — backend scale &amp; performance Phase 11-15 (kiet00394-collab)</li>
           <li><strong>Worker:</strong> <code>da139ec</code> — recurring bills worker (kiet00394-collab)</li>
           <li><strong>Firebase SSR fix:</strong> <code>ecd5fb0</code> — worker DB env, Firebase SSR crash (kiet00394-collab)</li>
         </ul>
 
-        <h3>Bằng chứng đóng góp:</h3>
+        <h3>Evidence of Contribution:</h3>
         <ul>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/4e629b1" target="_blank" rel="noopener">4e629b1</a> — refactor: eliminate magic strings, Pino logging</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/776aa12" target="_blank" rel="noopener">776aa12</a> — cleanup: remove unused imports, fix eslint</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/c110ddb" target="_blank" rel="noopener">c110ddb</a> — Vercel API routing, deployment prep</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/bfa1c11" target="_blank" rel="noopener">bfa1c11</a> — docs: update implementation plan</li>
-          <li><code>59af0c5</code>, <code>da139ec</code>, <code>ecd5fb0</code> — collab commits với Kiet</li>
+          <li><code>59af0c5</code>, <code>da139ec</code>, <code>ecd5fb0</code> — collab commits with Kiet</li>
         </ul>
 
-        <h3>Đánh giá bản thân:</h3>
+        <h3>Self-Assessment:</h3>
         <p>9/10</p>
 
         <h2>Task 5 — Peer Review</h2>
-        <p><strong>Tuần:</strong> 05/05/2026 – 15/05/2026</p>
+        <p><strong>Week:</strong> 05/05/2026 – 15/05/2026</p>
 
-        <h3>Công việc đã làm:</h3>
+        <h3>Work Done:</h3>
         <ul>
           <li>Merge PR #116: <code>a1847d3</code> — fix/102-detailed-error-ux</li>
           <li>Release merge: <code>034fab6</code> — Release dev to main (Phase 1 + Phase 2)</li>
-          <li>Review code của Kiệt về onboarding wizard và dashboard</li>
-          <li>Review PR của Duc về wallet integration, S2S engine, AI Quick Add</li>
-          <li>Nhận feedback từ Duc về Pino logging implementation và đã chỉnh sửa</li>
-          <li><strong>Review chéo nhóm Calorie Web:</strong> Đã tham gia review và gửi 2 PR feedback qua tài khoản kiet00394-collab:
+          <li>Reviewed Kiet's code on onboarding wizard and dashboard</li>
+          <li>Reviewed Duc's PRs on wallet integration, S2S engine, AI Quick Add</li>
+          <li>Received feedback from Duc on Pino logging implementation and adjusted accordingly</li>
+          <li><strong>Cross-Team Review — Calorie Web:</strong> Participated in review and submitted 2 PR feedback via kiet00394-collab account:
             <ul>
-              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/78" target="_blank" rel="noopener">PR #1 — Fix streak persistence:</a> streak bị reset về 0 khi reload trang; cần lưu streak vào profile</li>
-              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/79" target="_blank" rel="noopener">PR #2 — Fix timezone bug:</a> <code>toISOString()</code> dùng UTC gây lệch streak 1 ngày</li>
+              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/78" target="_blank" rel="noopener">PR #1 — Fix streak persistence:</a> streak resets to 0 on page reload; needs to persist streak to profile</li>
+              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/79" target="_blank" rel="noopener">PR #2 — Fix timezone bug:</a> <code>toISOString()</code> uses UTC causing a 1-day streak offset</li>
             </ul>
           </li>
         </ul>
 
-        <h3>Bằng chứng đóng góp:</h3>
+        <h3>Evidence of Contribution:</h3>
         <ul>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/a1847d3" target="_blank" rel="noopener">a1847d3</a> — Merge pull request #116</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/034fab6" target="_blank" rel="noopener">034fab6</a> — Release: dev to main</li>
           <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues" target="_blank" rel="noopener">Calorie Web Issues</a> — 2 PR feedback submitted</li>
         </ul>
 
-        <h3>Feedback nhận được từ giáo viên:</h3>
+        <h3>Teacher Feedback Received:</h3>
         <ul>
-          <li>"AI Quick Add với Gemini là điểm sáng, nên làm nổi bật hơn trong báo cáo" — Đã cập nhật section AI Quick Add chi tiết</li>
-          <li>"Onboarding Wizard 4 bước rất tốt cho UX" — Đã nhấn mạnh trong báo cáo nhóm</li>
+          <li>"AI Quick Add with Gemini is a highlight — should be featured more prominently in the report" — Updated the detailed AI Quick Add section</li>
+          <li>"4-step Onboarding Wizard is great for UX" — Highlighted in the team report</li>
         </ul>
 
-        <h3>Đánh giá bản thân:</h3>
+        <h3>Self-Assessment:</h3>
         <p>8/10</p>
 
-        <h2>Tổng Kết Đóng Góp Cá Nhân</h2>
+        <h2>Personal Contribution Summary</h2>
 
-        <h3>Tóm tắt những gì bạn đã đóng góp cho dự án:</h3>
+        <h3>Summary of your contributions to the project:</h3>
         <p>
-          Em đảm nhận vai trò Backend, Authentication, DevOps và Worker trong dự án Finance Tracker V3.
-          Em đã thiết lập toàn bộ Monorepo với Turborepo + pnpm Workspace (7 packages), tích hợp Firebase Authentication với 4 social providers và JWT flow,
-          triển khai Hono API embedded trong Next.js App Router, cấu hình CORS động cho Vercel deployment, và thiết lập rate limiting.
-          Em đã xử lý nhiều vấn đề production-critical: Firebase SSR crash trên Vercel, social login race condition, database migrations cho PostgreSQL compatibility,
-          và structured logging với Pino thay thế console.*.
-          Ngoài ra em còn tham gia 11 collaborative commits với bạn Kiệt qua tài khoản kiet00394-collab, bao gồm backend scale &amp; performance (Phase 11-15),
-          recurring bills worker, notifications và settings UI.
-          Em tự hào nhất về việc giải quyết vấn đề deploy Vercel — embedding Hono API as Next.js route handler thay vì separate server,
-          và hệ thống error handling + monitoring giúp debug production issues nhanh chóng.
-          Kỹ năng học được: Hono API framework, Firebase Admin SDK, JWT flow với session cookies,
-          Turborepo monorepo management, Pino structured logging, Sentry error monitoring, và Vercel deployment strategies.
+          I was responsible for Backend, Authentication, DevOps, and Worker roles in the Finance Tracker V3 project.
+          I set up the entire Monorepo with Turborepo + pnpm Workspace (7 packages), integrated Firebase Authentication with 4 social providers and JWT flow,
+          deployed the Hono API embedded in Next.js App Router, configured dynamic CORS for Vercel deployment, and set up rate limiting.
+          I resolved numerous production-critical issues: Firebase SSR crash on Vercel, social login race condition, database migrations for PostgreSQL compatibility,
+          and structured logging with Pino replacing console.*.
+          Additionally, I co-authored 11 collaborative commits with Kiet via the kiet00394-collab account, including backend scale &amp; performance (Phase 11-15),
+          recurring bills worker, notifications, and settings UI.
+          I am most proud of solving the Vercel deployment problem — embedding Hono API as a Next.js route handler instead of a separate server —
+          and the error handling + monitoring system that enables rapid debugging of production issues.
+          Skills learned: Hono API framework, Firebase Admin SDK, JWT flow with session cookies,
+          Turborepo monorepo management, Pino structured logging, Sentry error monitoring, and Vercel deployment strategies.
         </p>
 
-        <h3>Ước tính % đóng góp so với cả nhóm:</h3>
+        <h3>Estimated % contribution to the team:</h3>
         <p>~30%</p>
 
-        <h3>Điểm tự đánh giá tổng thể:</h3>
+        <h3>Overall Self-Assessment Score:</h3>
         <p>9/10</p>
 
         <br/>
-        <p><Link href="/">← Quay lại Final Report</Link></p>
+        <p><Link href="/">← Back to Final Report</Link></p>
       </div>
     </>
   );

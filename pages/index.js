@@ -485,17 +485,17 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
               <tr>
                 <td>Functionality</td>
                 <td>Complete calorie tracking flow: diary, search, stats, TDEE calculator, water tracking</td>
-                <td><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/78" target="_blank" rel="noopener">PR #1 — Fix streak persistence:</a> streak bị reset về 0 khi reload trang; cần lưu streak vào profile</td>
+                <td><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/78" target="_blank" rel="noopener">PR #1 — Fix streak persistence:</a> streak resets to 0 on page reload; needs to persist streak to profile</td>
               </tr>
               <tr>
                 <td>Data Integrity</td>
                 <td>Local storage architecture for offline-first experience</td>
-                <td><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/79" target="_blank" rel="noopener">PR #2 — Fix timezone bug:</a> <code>toISOString()</code> dùng UTC, gây lệch streak 1 ngày với múi giờ UTC+7</td>
+                <td><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/79" target="_blank" rel="noopener">PR #2 — Fix timezone bug:</a> <code>toISOString()</code> uses UTC, causing a 1-day streak offset for UTC+7 timezone</td>
               </tr>
               <tr>
                 <td>UI/UX</td>
                 <td>Clean dashboard design, responsive layout, animated stats page</td>
-                <td>Có thể cải thiện thêm dark mode và accessibility labels cho screen reader</td>
+                <td>Could improve with dark mode and accessibility labels for screen readers</td>
               </tr>
             </tbody>
           </table>
@@ -508,16 +508,16 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
           </thead>
           <tbody>
             <tr>
-              <td>AI Quick Add với Gemini là điểm sáng, nên làm nổi bật hơn trong báo cáo</td>
+              <td>AI Quick Add with Gemini is a highlight — should be featured more prominently in the report</td>
               <td>Teacher</td>
               <td>Accepted</td>
-              <td>Đã thêm section AI Quick Add chi tiết trong báo cáo — <code>8b3ca4b</code></td>
+              <td>Added detailed AI Quick Add section in the report — <code>8b3ca4b</code></td>
             </tr>
             <tr>
-              <td>Onboarding Wizard 4 bước rất tốt cho UX, nên mention trong self-report</td>
+              <td>4-step Onboarding Wizard is great for UX — should be mentioned in self-report</td>
               <td>Teacher</td>
               <td>Accepted</td>
-              <td>Đã cập nhật self-report cá nhân của Kiệt, nhấn mạnh onboarding flow — <code>fff7e94</code></td>
+              <td>Updated Kiet's personal self-report, highlighting the onboarding flow — <code>fff7e94</code></td>
             </tr>
           </tbody>
         </table>

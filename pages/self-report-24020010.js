@@ -16,64 +16,64 @@ export default function SelfReportKiet() {
 
       <div className="container">
 
-        <h2>Thông tin cá nhân</h2>
+        <h2>Personal Information</h2>
         <table>
           <tbody>
-            <tr><td><strong>Họ tên</strong></td><td>Châu Tuấn Kiệt</td></tr>
-            <tr><td><strong>MSSV</strong></td><td>24020010</td></tr>
-            <tr><td><strong>Nhóm</strong></td><td>Antigravity</td></tr>
-            <tr><td><strong>Vai trò</strong></td><td>Frontend / UI-UX / Dashboard / Components</td></tr>
+            <tr><td><strong>Full Name</strong></td><td>Chau Tuan Kiet</td></tr>
+            <tr><td><strong>Student ID</strong></td><td>24020010</td></tr>
+            <tr><td><strong>Team</strong></td><td>Antigravity</td></tr>
+            <tr><td><strong>Role</strong></td><td>Frontend / UI-UX / Dashboard / Components</td></tr>
           </tbody>
         </table>
 
         <h2>Task 1 — Planning &amp; Setup</h2>
-        <p><strong>Tuần:</strong> 01/04/2026 – 15/04/2026</p>
+        <p><strong>Week:</strong> 01/04/2026 – 15/04/2026</p>
 
-        <h3>Công việc đã làm:</h3>
+        <h3>Work Done:</h3>
         <ul>
-          <li>Tham gia họp nhóm lên ý tưởng, chọn đề tài Finance Tracker V3 — ứng dụng quản lý tài chính cá nhân theo triết lý Budget-First</li>
-          <li>Nghiên cứu công nghệ Frontend: Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4, Radix UI, shadcn/ui, TanStack Query, Recharts</li>
-          <li>Tham gia thiết kế wireframe Figma cho toàn bộ 9 trang (Dashboard, Transactions, Wallets, Budgets, Goals, Bills, Analytics, Settings, Onboarding)</li>
-          <li>Đề xuất Container/Presentational pattern cho kiến trúc component</li>
-          <li>Setup môi trường dev, tham gia review cấu trúc monorepo</li>
+          <li>Participated in team meetings to brainstorm ideas, selected Finance Tracker V3 — a personal finance management app following the Budget-First philosophy</li>
+          <li>Researched Frontend technologies: Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS v4, Radix UI, shadcn/ui, TanStack Query, Recharts</li>
+          <li>Contributed to Figma wireframe design for all 9 pages (Dashboard, Transactions, Wallets, Budgets, Goals, Bills, Analytics, Settings, Onboarding)</li>
+          <li>Proposed the Container/Presentational pattern for component architecture</li>
+          <li>Set up dev environment, participated in monorepo structure review</li>
         </ul>
 
-        <h3>Bằng chứng đóng góp:</h3>
+        <h3>Evidence of Contribution:</h3>
         <ul>
-          <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/2dd223e" target="_blank" rel="noopener">2dd223e</a> — initial framework structure (tham gia review)</li>
-          <li>Wireframe Figma: thiết kế tất cả các trang Dashboard, Transactions, Wallets, Budgets, Goals, Bills, Analytics, Settings, Onboarding</li>
+          <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/2dd223e" target="_blank" rel="noopener">2dd223e</a> — initial framework structure (review participation)</li>
+          <li>Figma wireframe: designed all pages — Dashboard, Transactions, Wallets, Budgets, Goals, Bills, Analytics, Settings, Onboarding</li>
         </ul>
 
-        <h3>Đánh giá bản thân:</h3>
+        <h3>Self-Assessment:</h3>
         <p>9/10</p>
 
         <h2>Task 2 — UI Implementation</h2>
-        <p><strong>Tuần:</strong> 15/04/2026 – 05/05/2026</p>
+        <p><strong>Week:</strong> 15/04/2026 – 05/05/2026</p>
 
-        <h3>Công việc đã làm:</h3>
+        <h3>Work Done:</h3>
         <ul>
-          <li><strong>Onboarding Wizard:</strong> Xây dựng luồng onboarding 4 bước (thông tin cá nhân, ví, ngân sách, giao dịch đầu tiên) — commit <code>fff7e94</code> (solo) và <code>a152b3b</code> (collaboration với Vuong)</li>
-          <li><strong>Dashboard:</strong> Layout Budget-First với Safe-to-Spend display, ring chart, goals overview, upcoming bills, dashboard localization refactor (Phase 3) — <code>6c6cdd7</code> (collab)</li>
-          <li><strong>Transactions Page:</strong> Danh sách giao dịch với search, filter, sort và CRUD operations</li>
-          <li><strong>Wallets Page:</strong> Quản lý đa ví (tiền mặt, ngân hàng, thẻ tín dụng, ví điện tử) với chức năng chuyển tiền giữa các ví</li>
-          <li><strong>Budgets Page:</strong> Thiết lập và theo dõi ngân sách theo danh mục</li>
-          <li><strong>Goals Page:</strong> Theo dõi tiến độ mục tiêu tiết kiệm</li>
-          <li><strong>Bills Page:</strong> Quản lý hóa đơn định kỳ</li>
-          <li><strong>Analytics Page:</strong> Biểu đồ phân tích chi tiêu (Recharts)</li>
-          <li><strong>Settings Page:</strong> Quản lý danh mục và hồ sơ người dùng</li>
-          <li><strong>Auth UI:</strong> Firebase social login (Google, Facebook, GitHub, Apple) với loading states — <code>b4e8551</code> (collab, Phase 9)</li>
-          <li><strong>Responsive Design:</strong> Hỗ trợ đầy đủ mobile, tablet, desktop qua Tailwind CSS breakpoints</li>
+          <li><strong>Onboarding Wizard:</strong> Built a 4-step onboarding flow (personal info, wallet, budget, first transaction) — commit <code>fff7e94</code> (solo) and <code>a152b3b</code> (collaboration with Vuong)</li>
+          <li><strong>Dashboard:</strong> Budget-First layout with Safe-to-Spend display, ring chart, goals overview, upcoming bills, dashboard localization refactor (Phase 3) — <code>6c6cdd7</code> (collab)</li>
+          <li><strong>Transactions Page:</strong> Transaction list with search, filter, sort and CRUD operations</li>
+          <li><strong>Wallets Page:</strong> Multi-wallet management (cash, bank, credit cards, e-wallets) with inter-wallet transfer functionality</li>
+          <li><strong>Budgets Page:</strong> Category-based budget setup and tracking</li>
+          <li><strong>Goals Page:</strong> Savings goal progress tracking</li>
+          <li><strong>Bills Page:</strong> Recurring bill management</li>
+          <li><strong>Analytics Page:</strong> Spending analysis charts (Recharts)</li>
+          <li><strong>Settings Page:</strong> Category and user profile management</li>
+          <li><strong>Auth UI:</strong> Firebase social login (Google, Facebook, GitHub, Apple) with loading states — <code>b4e8551</code> (collab, Phase 9)</li>
+          <li><strong>Responsive Design:</strong> Full support for mobile, tablet, and desktop via Tailwind CSS breakpoints</li>
           <li>Frontend refactor, React Query, optimistic updates (Phases 6-8) — <code>2a9423d</code> (collab)</li>
         </ul>
 
-        <h3>Bằng chứng đóng góp:</h3>
+        <h3>Evidence of Contribution:</h3>
         <ul>
           <li>Solo: <a href="https://github.com/tducn110/Tracker_yourMoney/commit/fff7e94" target="_blank" rel="noopener">fff7e94</a> feat: onboarding wizard 4 buoc</li>
-          <li>Collab (kiet00394-collab, 11 commits với Vuong):
+          <li>Collab (kiet00394-collab, 11 commits with Vuong):
             <ul>
               <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/b4e8551" target="_blank" rel="noopener">b4e8551</a> — enhance login UI with premium background (Phase 9)</li>
               <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/2a9423d" target="_blank" rel="noopener">2a9423d</a> — frontend refactor, React Query, optimistic updates (Phases 6-8)</li>
-              <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/49cfa80" target="_blank" rel="noopener">49cfa80</a> — wire QuickAddModal và SimpleQuickInput to real API</li>
+              <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/49cfa80" target="_blank" rel="noopener">49cfa80</a> — wire QuickAddModal and SimpleQuickInput to real API</li>
               <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/da139ec" target="_blank" rel="noopener">da139ec</a> — recurring bills worker, notifications and settings UI</li>
               <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/7d6a643" target="_blank" rel="noopener">7d6a643</a> — resolve typechecking and UI warnings</li>
               <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/6c6cdd7" target="_blank" rel="noopener">6c6cdd7</a> — dashboard localization refactor (Phase 3)</li>
@@ -82,112 +82,112 @@ export default function SelfReportKiet() {
           </li>
         </ul>
 
-        <h3>Khó khăn gặp phải:</h3>
+        <h3>Challenges Encountered:</h3>
         <ul>
-          <li>Tailwind CSS v4 có breaking changes so với v3, cần thời gian migrate và fix các class không tương thích</li>
-          <li>Optimistic update với TanStack Query đòi hỏi xử lý rollback cẩn thận khi API lỗi</li>
+          <li>Tailwind CSS v4 had breaking changes from v3, requiring time to migrate and fix incompatible classes</li>
+          <li>Optimistic updates with TanStack Query required careful rollback handling when the API returned errors</li>
         </ul>
 
-        <h3>Đánh giá bản thân:</h3>
+        <h3>Self-Assessment:</h3>
         <p>9/10</p>
 
         <h2>Task 3 — Database Integration</h2>
-        <p><strong>Tuần:</strong> 22/04/2026 – 28/04/2026</p>
+        <p><strong>Week:</strong> 22/04/2026 – 28/04/2026</p>
 
-        <h3>Công việc đã làm:</h3>
+        <h3>Work Done:</h3>
         <ul>
-          <li>Wire QuickAddModal và SimpleQuickInput đến real API calls — <code>49cfa80</code> (collab)</li>
-          <li>Tích hợp TanStack Query cho data fetching, cache invalidation, optimistic updates trên tất cả các trang</li>
-          <li>Fix client toSnake interceptor gây lỗi tất cả API writes — <code>f393e47</code> (collab)</li>
-          <li>Kết nối frontend đến API endpoints: transactions, wallets, budgets, goals, bills, analytics</li>
-          <li>Xử lý loading skeletons và error boundaries cho trải nghiệm người dùng</li>
-          <li>Wallet OCC (Optimistic Concurrency Control) và audit trails — <code>97b4f4d</code> (collab)</li>
+          <li>Wired QuickAddModal and SimpleQuickInput to real API calls — <code>49cfa80</code> (collab)</li>
+          <li>Integrated TanStack Query for data fetching, cache invalidation, and optimistic updates across all pages</li>
+          <li>Fixed client toSnake interceptor that broke all API writes — <code>f393e47</code> (collab)</li>
+          <li>Connected frontend to API endpoints: transactions, wallets, budgets, goals, bills, analytics</li>
+          <li>Implemented loading skeletons and error boundaries for improved user experience</li>
+          <li>Wallet OCC (Optimistic Concurrency Control) and audit trails — <code>97b4f4d</code> (collab)</li>
         </ul>
 
-        <h3>Bằng chứng đóng góp:</h3>
+        <h3>Evidence of Contribution:</h3>
         <ul>
-          <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/49cfa80" target="_blank" rel="noopener">49cfa80</a> — wire QuickAddModal và SimpleQuickInput to real API</li>
+          <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/49cfa80" target="_blank" rel="noopener">49cfa80</a> — wire QuickAddModal and SimpleQuickInput to real API</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/f393e47" target="_blank" rel="noopener">f393e47</a> — fix toSnake interceptor</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/97b4f4d" target="_blank" rel="noopener">97b4f4d</a> — financial logic integrity (collab)</li>
         </ul>
 
-        <h3>Đánh giá bản thân:</h3>
+        <h3>Self-Assessment:</h3>
         <p>9/10</p>
 
         <h2>Task 4 — Optimization</h2>
-        <p><strong>Tuần:</strong> 28/04/2026 – 12/05/2026</p>
+        <p><strong>Week:</strong> 28/04/2026 – 12/05/2026</p>
 
-        <h3>Công việc đã làm:</h3>
+        <h3>Work Done:</h3>
         <ul>
-          <li>Tailwind CSS v4 migration và frontend fixes — <code>fa7319a</code> (collab)</li>
-          <li>Backend scale &amp; performance (Phase 11-15) kết hợp UI Tailwind v4 fixes — <code>59af0c5</code> (collab)</li>
-          <li>Resolve typechecking và UI warnings — <code>7d6a643</code> (collab)</li>
-          <li>Enhance login UI với premium background và loading state (Phase 9) — <code>b4e8551</code> (collab)</li>
+          <li>Tailwind CSS v4 migration and frontend fixes — <code>fa7319a</code> (collab)</li>
+          <li>Backend scale &amp; performance (Phase 11-15) combined with UI Tailwind v4 fixes — <code>59af0c5</code> (collab)</li>
+          <li>Resolved typechecking and UI warnings — <code>7d6a643</code> (collab)</li>
+          <li>Enhanced login UI with premium background and loading state (Phase 9) — <code>b4e8551</code> (collab)</li>
           <li>Firebase SSR crash fix, cache headers, API/DB/UI updates — <code>ecd5fb0</code> (collab)</li>
-          <li>Loading skeletons và error boundaries cho tất cả các trang</li>
+          <li>Loading skeletons and error boundaries for all pages</li>
         </ul>
 
-        <h3>Bằng chứng đóng góp:</h3>
+        <h3>Evidence of Contribution:</h3>
         <ul>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/fa7319a" target="_blank" rel="noopener">fa7319a</a> — Tailwind v4 migration</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/59af0c5" target="_blank" rel="noopener">59af0c5</a> — backend scale &amp; performance, UI fixes</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/ecd5fb0" target="_blank" rel="noopener">ecd5fb0</a> — Firebase SSR crash fix</li>
         </ul>
 
-        <h3>Đánh giá bản thân:</h3>
+        <h3>Self-Assessment:</h3>
         <p>9/10</p>
 
         <h2>Task 5 — Peer Review</h2>
-        <p><strong>Tuần:</strong> 05/05/2026 – 15/05/2026</p>
+        <p><strong>Week:</strong> 05/05/2026 – 15/05/2026</p>
 
-        <h3>Công việc đã làm:</h3>
+        <h3>Work Done:</h3>
         <ul>
-          <li>Review code của Vuong về CategoryManager component và CashWalletWidget</li>
-          <li>Review PR của Duc về wallet integration, dashboard refactor, AI Quick Add</li>
-          <li>Nhận feedback từ Duc về Container/Presentational pattern và đã áp dụng</li>
-          <li>Nhận feedback từ Vuong về xử lý error boundary và đã implement</li>
-          <li><strong>Review chéo nhóm Calorie Web:</strong> Đã review và gửi 2 PR feedback qua tài khoản kiet00394-collab:
+          <li>Reviewed Vuong's code on CategoryManager component and CashWalletWidget</li>
+          <li>Reviewed Duc's PRs on wallet integration, dashboard refactor, AI Quick Add</li>
+          <li>Received feedback from Duc on Container/Presentational pattern and applied it</li>
+          <li>Received feedback from Vuong on error boundary handling and implemented it</li>
+          <li><strong>Cross-Team Review — Calorie Web:</strong> Reviewed and submitted 2 PR feedback via kiet00394-collab account:
             <ul>
-              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/78" target="_blank" rel="noopener">PR #1 — Fix streak persistence:</a> streak bị reset về 0 khi reload trang; cần lưu streak vào profile</li>
-              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/79" target="_blank" rel="noopener">PR #2 — Fix timezone bug:</a> <code>toISOString()</code> dùng UTC gây lệch streak 1 ngày</li>
+              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/78" target="_blank" rel="noopener">PR #1 — Fix streak persistence:</a> streak resets to 0 on page reload; needs to persist streak to profile</li>
+              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/79" target="_blank" rel="noopener">PR #2 — Fix timezone bug:</a> <code>toISOString()</code> uses UTC causing a 1-day streak offset</li>
             </ul>
           </li>
         </ul>
 
-        <h3>Bằng chứng đóng góp:</h3>
+        <h3>Evidence of Contribution:</h3>
         <ul>
-          <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/a1847d3" target="_blank" rel="noopener">a1847d3</a> — Merge PR #116 (tham gia review)</li>
+          <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/a1847d3" target="_blank" rel="noopener">a1847d3</a> — Merge PR #116 (review participation)</li>
           <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues" target="_blank" rel="noopener">Calorie Web Issues</a> — 2 PR feedback submitted</li>
         </ul>
 
-        <h3>Feedback nhận được từ giáo viên:</h3>
+        <h3>Teacher Feedback Received:</h3>
         <ul>
-          <li>"Onboarding Wizard 4 bước rất tốt cho UX, nên mention trong self-report" — Đã cập nhật, nhấn mạnh onboarding flow trong báo cáo</li>
-          <li>"AI Quick Add với Gemini là điểm sáng" — Đã thêm chi tiết trong báo cáo nhóm</li>
+          <li>"4-step Onboarding Wizard is great for UX, should be mentioned in self-report" — Updated, highlighting the onboarding flow in the report</li>
+          <li>"AI Quick Add with Gemini is a highlight" — Added details in the team report</li>
         </ul>
 
-        <h3>Đánh giá bản thân:</h3>
+        <h3>Self-Assessment:</h3>
         <p>8/10</p>
 
-        <h2>Tổng Kết Đóng Góp Cá Nhân</h2>
+        <h2>Personal Contribution Summary</h2>
 
-        <h3>Tóm tắt những gì bạn đã đóng góp cho dự án:</h3>
+        <h3>Summary of your contributions to the project:</h3>
         <p>
-          Em đảm nhận toàn bộ phần Frontend của dự án Finance Tracker V3. Em đã xây dựng 9 trang hoàn chỉnh bao gồm Dashboard (Budget-First layout), Transactions (CRUD + search/filter), Wallets (đa ví + chuyển tiền), Budgets, Goals, Bills, Analytics (biểu đồ), Settings và Onboarding Wizard 4 bước.
-          Em đã thiết lập kiến trúc component theo Container/Presentational pattern, tích hợp TanStack Query cho data fetching với optimistic updates, và đảm bảo responsive design trên tất cả thiết bị.
-          Ngoài commit solo, em còn tham gia 11 collaborative commits với bạn Vuong qua tài khoản kiet00394-collab, bao gồm các tính năng quan trọng như Tailwind v4 migration, Firebase SSR fix, recurring bills worker, và login UI enhancement.
-          Em tự hào nhất về Onboarding Wizard giúp người dùng mới có trải nghiệm liền mạch, và Dashboard Budget-First giúp người dùng nắm bắt tình hình tài chính chỉ trong một cái nhìn.
-          Kỹ năng học được: React 19 patterns, TanStack Query, Tailwind CSS v4, Container/Presentational architecture, và làm việc nhóm qua Git workflow với Conventional Commits.
+          I was responsible for the entire Frontend of the Finance Tracker V3 project. I built 9 complete pages including Dashboard (Budget-First layout), Transactions (CRUD + search/filter), Wallets (multi-wallet + transfers), Budgets, Goals, Bills, Analytics (charts), Settings, and a 4-step Onboarding Wizard.
+          I established the component architecture following the Container/Presentational pattern, integrated TanStack Query for data fetching with optimistic updates, and ensured responsive design across all devices.
+          In addition to solo commits, I participated in 11 collaborative commits with Vuong via the kiet00394-collab account, covering critical features such as Tailwind v4 migration, Firebase SSR fix, recurring bills worker, and login UI enhancement.
+          I am most proud of the Onboarding Wizard that gives new users a seamless experience, and the Budget-First Dashboard that lets users grasp their financial situation at a single glance.
+          Skills learned: React 19 patterns, TanStack Query, Tailwind CSS v4, Container/Presentational architecture, and teamwork via Git workflow with Conventional Commits.
         </p>
 
-        <h3>Ước tính % đóng góp so với cả nhóm:</h3>
+        <h3>Estimated % contribution to the team:</h3>
         <p>~30%</p>
 
-        <h3>Điểm tự đánh giá tổng thể:</h3>
+        <h3>Overall Self-Assessment Score:</h3>
         <p>9/10</p>
 
         <br/>
-        <p><Link href="/">← Quay lại Final Report</Link></p>
+        <p><Link href="/">← Back to Final Report</Link></p>
       </div>
     </>
   );
