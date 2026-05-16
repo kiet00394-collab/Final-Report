@@ -501,6 +501,33 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
           </table>
         </div>
 
+        <div className="section-card">
+          <h4>Reviewed Team: QuickTodo</h4>
+          <ul>
+            <li><strong>Team / Project:</strong> QuickTodo — Task Management Application</li>
+            <li><strong>Repository:</strong> <a href="https://github.com/hothong3k/QuickTodo" target="_blank" rel="noopener">github.com/hothong3k/QuickTodo</a></li>
+            <li><strong>Feedback by:</strong> Tran Vo Ba Vuong (ViccVuongVicc)</li>
+            <li><strong>Issue:</strong> <a href="https://github.com/hothong3k/QuickTodo/issues/30" target="_blank" rel="noopener">#30 — Guest mode: Cannot add subtask — error message lacks clear login guidance</a></li>
+          </ul>
+          <table>
+            <thead>
+              <tr><th>Aspect</th><th>Strengths</th><th>Improvement Suggestions</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Usability</td>
+                <td>Guest mode allows trying the app without sign-up, lowering entry barrier</td>
+                <td>When guest tries to add subtask, the error message should include a "Log in" button; alternatively save subtasks to localStorage and offer sync on login</td>
+              </tr>
+              <tr>
+                <td>Error Handling</td>
+                <td>App detects unauthorized actions and shows error messages</td>
+                <td>Error messages lack actionable guidance — user sees "You must be logged in" but has no path to resolve it</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         <h3>(b) Feedback Received (Teacher Review)</h3>
         <table>
           <thead>

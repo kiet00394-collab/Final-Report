@@ -150,6 +150,7 @@ export default function SelfReportVuong() {
           <li>Reviewed Kiet's code on onboarding wizard and dashboard</li>
           <li>Reviewed Duc's PRs on wallet integration, S2S engine, AI Quick Add</li>
           <li>Received feedback from Duc on Pino logging implementation and adjusted accordingly</li>
+          <li><strong>Cross-Team Review — QuickTodo:</strong> Reviewed and submitted detailed UX feedback on guest mode subtask flow: error message lacks login guidance, suggested localStorage sync approach — <a href="https://github.com/hothong3k/QuickTodo/issues/30" target="_blank" rel="noopener">Issue #30</a></li>
           <li><strong>Cross-Team Review — Calorie Web:</strong> Participated in review and submitted 2 PR feedback via kiet00394-collab account:
             <ul>
               <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/78" target="_blank" rel="noopener">PR #1 — Fix streak persistence:</a> streak resets to 0 on page reload; needs to persist streak to profile</li>
@@ -163,6 +164,7 @@ export default function SelfReportVuong() {
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/a1847d3" target="_blank" rel="noopener">a1847d3</a> — Merge pull request #116</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/034fab6" target="_blank" rel="noopener">034fab6</a> — Release: dev to main</li>
           <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues" target="_blank" rel="noopener">Calorie Web Issues</a> — 2 PR feedback submitted</li>
+          <li><a href="https://github.com/hothong3k/QuickTodo/issues/30" target="_blank" rel="noopener">QuickTodo Issue #30</a> — Guest mode subtask UX feedback submitted</li>
         </ul>
 
         <h3>Teacher Feedback Received:</h3>
