@@ -35,8 +35,8 @@ export default function Home() {
             <tr><th>Full Name</th><th>Student ID</th><th>Role</th></tr>
           </thead>
           <tbody>
-            <tr><td>Nguyen Tam Duc</td><td>(fill in)</td><td>Team Lead / Backend / Database / Architecture</td></tr>
-            <tr><td>Tran Vo Ba Vuong</td><td>2420008</td><td>Backend / Auth / Middleware / DevOps / Worker</td></tr>
+            <tr><td>Nguyen Tam Duc</td><td>2402005</td><td>Team Lead / Backend / Database / Architecture</td></tr>
+            <tr><td>Tran Vo Ba Vuong</td><td>2402008</td><td>Backend / Auth / Middleware / DevOps / Worker</td></tr>
             <tr><td>Chau Tuan Kiet</td><td>24020010</td><td>Frontend / UI-UX / Dashboard / Components</td></tr>
           </tbody>
         </table>
@@ -659,8 +659,8 @@ df74302 Merge PR #10: feature/issue-5-aesthetics                                
             <tr><th>Full Name</th><th>Student ID</th><th>Self-Report Link</th></tr>
           </thead>
           <tbody>
-            <tr><td>Nguyen Tam Duc</td><td>(fill in)</td><td><a href="/self-report-duc">self-report-duc.md</a></td></tr>
-            <tr><td>Tran Vo Ba Vuong</td><td>2420008</td><td><a href="/self-report-2420008">self-report-vuong.md</a></td></tr>
+            <tr><td>Nguyen Tam Duc</td><td>2402005</td><td><a href="/self-report-duc">self-report-duc.md</a></td></tr>
+            <tr><td>Tran Vo Ba Vuong</td><td>2402008</td><td><a href="/self-report-2402008">self-report-vuong.md</a></td></tr>
             <tr><td>Chau Tuan Kiet</td><td>24020010</td><td><a href="/self-report-24020010">self-report-kiet.md</a></td></tr>
           </tbody>
         </table>
