@@ -146,13 +146,24 @@ export default function SelfReportKiet() {
           <li>Review PR của Duc về wallet integration, dashboard refactor, AI Quick Add</li>
           <li>Nhận feedback từ Duc về Container/Presentational pattern và đã áp dụng</li>
           <li>Nhận feedback từ Vuong về xử lý error boundary và đã implement</li>
-          <li>Tham gia review chéo với nhóm khác (đang cập nhật)</li>
+          <li><strong>Review chéo nhóm Calorie Web:</strong> Đã review và gửi 2 PR feedback qua tài khoản kiet00394-collab:
+            <ul>
+              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/78" target="_blank" rel="noopener">PR #1 — Fix streak persistence:</a> streak bị reset về 0 khi reload trang; cần lưu streak vào profile</li>
+              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/79" target="_blank" rel="noopener">PR #2 — Fix timezone bug:</a> <code>toISOString()</code> dùng UTC gây lệch streak 1 ngày</li>
+            </ul>
+          </li>
         </ul>
 
         <h3>Bằng chứng đóng góp:</h3>
         <ul>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/a1847d3" target="_blank" rel="noopener">a1847d3</a> — Merge PR #116 (tham gia review)</li>
-          <li>Feedback documents: (đang cập nhật)</li>
+          <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues" target="_blank" rel="noopener">Calorie Web Issues</a> — 2 PR feedback submitted</li>
+        </ul>
+
+        <h3>Feedback nhận được từ giáo viên:</h3>
+        <ul>
+          <li>"Onboarding Wizard 4 bước rất tốt cho UX, nên mention trong self-report" — Đã cập nhật, nhấn mạnh onboarding flow trong báo cáo</li>
+          <li>"AI Quick Add với Gemini là điểm sáng" — Đã thêm chi tiết trong báo cáo nhóm</li>
         </ul>
 
         <h3>Đánh giá bản thân:</h3>

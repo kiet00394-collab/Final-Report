@@ -155,7 +155,12 @@ export default function SelfReportDuc() {
           <li>Review toàn bộ code của Kiệt (onboarding wizard, dashboard, các trang) và Vuong (API, auth, DevOps)</li>
           <li>Code review cho tất cả các PR trước khi merge vào main</li>
           <li>Nhận feedback từ Kiệt và Vuong về architecture và API design, đã điều chỉnh</li>
-          <li>Tham gia review chéo với nhóm khác (đang cập nhật)</li>
+          <li><strong>Review chéo nhóm Calorie Web:</strong> Đã tổ chức review và gửi 2 PR feedback qua tài khoản kiet00394-collab:
+            <ul>
+              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/78" target="_blank" rel="noopener">PR #1 — Fix streak persistence:</a> streak bị reset về 0 khi reload trang; cần lưu streak vào profile</li>
+              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/79" target="_blank" rel="noopener">PR #2 — Fix timezone bug:</a> <code>toISOString()</code> dùng UTC gây lệch streak 1 ngày</li>
+            </ul>
+          </li>
         </ul>
 
         <h3>Bằng chứng đóng góp:</h3>
@@ -163,6 +168,13 @@ export default function SelfReportDuc() {
           <li>7 PR merges documented above</li>
           <li>Code review trên tất cả các PR trong repository</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/pulse" target="_blank" rel="noopener">GitHub Pulse</a> — project activity overview</li>
+          <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues" target="_blank" rel="noopener">Calorie Web Issues</a> — 2 PR feedback submitted</li>
+        </ul>
+
+        <h3>Feedback nhận được từ giáo viên:</h3>
+        <ul>
+          <li>"AI Quick Add với Gemini là điểm sáng, nên làm nổi bật hơn trong báo cáo" — Đã cập nhật section AI Quick Add chi tiết trong báo cáo nhóm</li>
+          <li>"Onboarding Wizard 4 bước rất tốt cho UX" — Đã nhấn mạnh trong báo cáo và self-report</li>
         </ul>
 
         <h3>Đánh giá bản thân:</h3>

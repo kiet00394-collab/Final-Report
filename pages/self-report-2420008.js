@@ -150,14 +150,25 @@ export default function SelfReportVuong() {
           <li>Review code của Kiệt về onboarding wizard và dashboard</li>
           <li>Review PR của Duc về wallet integration, S2S engine, AI Quick Add</li>
           <li>Nhận feedback từ Duc về Pino logging implementation và đã chỉnh sửa</li>
-          <li>Tham gia review chéo với nhóm khác (đang cập nhật)</li>
+          <li><strong>Review chéo nhóm Calorie Web:</strong> Đã tham gia review và gửi 2 PR feedback qua tài khoản kiet00394-collab:
+            <ul>
+              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/78" target="_blank" rel="noopener">PR #1 — Fix streak persistence:</a> streak bị reset về 0 khi reload trang; cần lưu streak vào profile</li>
+              <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/79" target="_blank" rel="noopener">PR #2 — Fix timezone bug:</a> <code>toISOString()</code> dùng UTC gây lệch streak 1 ngày</li>
+            </ul>
+          </li>
         </ul>
 
         <h3>Bằng chứng đóng góp:</h3>
         <ul>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/a1847d3" target="_blank" rel="noopener">a1847d3</a> — Merge pull request #116</li>
           <li><a href="https://github.com/tducn110/Tracker_yourMoney/commit/034fab6" target="_blank" rel="noopener">034fab6</a> — Release: dev to main</li>
-          <li>Feedback documents: (đang cập nhật)</li>
+          <li><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues" target="_blank" rel="noopener">Calorie Web Issues</a> — 2 PR feedback submitted</li>
+        </ul>
+
+        <h3>Feedback nhận được từ giáo viên:</h3>
+        <ul>
+          <li>"AI Quick Add với Gemini là điểm sáng, nên làm nổi bật hơn trong báo cáo" — Đã cập nhật section AI Quick Add chi tiết</li>
+          <li>"Onboarding Wizard 4 bước rất tốt cho UX" — Đã nhấn mạnh trong báo cáo nhóm</li>
         </ul>
 
         <h3>Đánh giá bản thân:</h3>

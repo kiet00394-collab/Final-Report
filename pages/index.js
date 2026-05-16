@@ -471,48 +471,54 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
         <h3>(a) Feedback for Other Teams</h3>
 
         <div className="section-card">
-          <h4>Reviewed Team #1</h4>
+          <h4>Reviewed Team: Calorie Web</h4>
           <ul>
-            <li><strong>Team / Project:</strong> (updating)</li>
-            <li><strong>Project link:</strong> (updating)</li>
+            <li><strong>Team / Project:</strong> Calorie Web — Calorie Tracking Application</li>
+            <li><strong>Repository:</strong> <a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io" target="_blank" rel="noopener">github.com/nguyenduythaibao1611-eng/calorie-web.github.io</a></li>
+            <li><strong>Feedback Issues:</strong> <a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues" target="_blank" rel="noopener">GitHub Issues</a></li>
           </ul>
           <table>
             <thead>
               <tr><th>Aspect</th><th>Strengths</th><th>Improvement Suggestions</th></tr>
             </thead>
             <tbody>
-              <tr><td>Usability</td><td>(updating)</td><td>(updating)</td></tr>
-              <tr><td>Aesthetics</td><td>(updating)</td><td>(updating)</td></tr>
-              <tr><td>User-Friendliness</td><td>(updating)</td><td>(updating)</td></tr>
+              <tr>
+                <td>Functionality</td>
+                <td>Complete calorie tracking flow: diary, search, stats, TDEE calculator, water tracking</td>
+                <td><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/78" target="_blank" rel="noopener">PR #1 — Fix streak persistence:</a> streak bị reset về 0 khi reload trang; cần lưu streak vào profile</td>
+              </tr>
+              <tr>
+                <td>Data Integrity</td>
+                <td>Local storage architecture for offline-first experience</td>
+                <td><a href="https://github.com/nguyenduythaibao1611-eng/calorie-web.github.io/issues/79" target="_blank" rel="noopener">PR #2 — Fix timezone bug:</a> <code>toISOString()</code> dùng UTC, gây lệch streak 1 ngày với múi giờ UTC+7</td>
+              </tr>
+              <tr>
+                <td>UI/UX</td>
+                <td>Clean dashboard design, responsive layout, animated stats page</td>
+                <td>Có thể cải thiện thêm dark mode và accessibility labels cho screen reader</td>
+              </tr>
             </tbody>
           </table>
         </div>
 
-        <div className="section-card">
-          <h4>Reviewed Team #2</h4>
-          <ul>
-            <li><strong>Team / Project:</strong> (updating)</li>
-            <li><strong>Project link:</strong> (updating)</li>
-          </ul>
-          <table>
-            <thead>
-              <tr><th>Aspect</th><th>Strengths</th><th>Improvement Suggestions</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>Usability</td><td>(updating)</td><td>(updating)</td></tr>
-              <tr><td>Aesthetics</td><td>(updating)</td><td>(updating)</td></tr>
-              <tr><td>User-Friendliness</td><td>(updating)</td><td>(updating)</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <h3>(b) Feedback Received from Other Teams</h3>
+        <h3>(b) Feedback Received (Teacher Review)</h3>
         <table>
           <thead>
             <tr><th>Feedback</th><th>Source</th><th>Decision</th><th>Reason / Commit</th></tr>
           </thead>
           <tbody>
-            <tr><td>(updating)</td><td>(updating)</td><td>(updating)</td><td>(updating)</td></tr>
+            <tr>
+              <td>AI Quick Add với Gemini là điểm sáng, nên làm nổi bật hơn trong báo cáo</td>
+              <td>Teacher</td>
+              <td>Accepted</td>
+              <td>Đã thêm section AI Quick Add chi tiết trong báo cáo — <code>8b3ca4b</code></td>
+            </tr>
+            <tr>
+              <td>Onboarding Wizard 4 bước rất tốt cho UX, nên mention trong self-report</td>
+              <td>Teacher</td>
+              <td>Accepted</td>
+              <td>Đã cập nhật self-report cá nhân của Kiệt, nhấn mạnh onboarding flow — <code>fff7e94</code></td>
+            </tr>
           </tbody>
         </table>
 
