@@ -511,13 +511,13 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
               <td>AI Quick Add with Gemini is a highlight — should be featured more prominently in the report</td>
               <td>Teacher</td>
               <td>Accepted</td>
-              <td>Added detailed AI Quick Add section in the report — <code>8b3ca4b</code></td>
+              <td>Integrated Gemini NLP adapter into Hono API route <code>/api/ai/quick-add</code>, supporting natural language transaction input — <code>8b3ca4b</code></td>
             </tr>
             <tr>
               <td>4-step Onboarding Wizard is great for UX — should be mentioned in self-report</td>
               <td>Teacher</td>
               <td>Accepted</td>
-              <td>Updated Kiet's personal self-report, highlighting the onboarding flow — <code>fff7e94</code></td>
+              <td>Built 4-step onboarding wizard (personal info → wallet → budget → first transaction) with local state persistence and skip support — <code>fff7e94</code></td>
             </tr>
           </tbody>
         </table>

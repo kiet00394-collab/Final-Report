@@ -167,8 +167,8 @@ export default function SelfReportVuong() {
 
         <h3>Teacher Feedback Received:</h3>
         <ul>
-          <li>"AI Quick Add with Gemini is a highlight — should be featured more prominently in the report" — Updated the detailed AI Quick Add section</li>
-          <li>"4-step Onboarding Wizard is great for UX" — Highlighted in the team report</li>
+          <li>"AI Quick Add with Gemini is a highlight" — Integrated Gemini NLP adapter into Hono API for natural language transaction input — <code>8b3ca4b</code></li>
+          <li>"4-step Onboarding Wizard is great for UX" — Built 4-step onboarding wizard with personal info, wallet, budget, first transaction flows — <code>fff7e94</code></li>
         </ul>
 
         <h3>Self-Assessment:</h3>

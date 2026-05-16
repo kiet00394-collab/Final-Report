@@ -162,8 +162,8 @@ export default function SelfReportKiet() {
 
         <h3>Teacher Feedback Received:</h3>
         <ul>
-          <li>"4-step Onboarding Wizard is great for UX, should be mentioned in self-report" — Updated, highlighting the onboarding flow in the report</li>
-          <li>"AI Quick Add with Gemini is a highlight" — Added details in the team report</li>
+          <li>"4-step Onboarding Wizard is great for UX" — Designed and built the 4-step onboarding flow: personal info → wallet → budget → first transaction with local state persistence — <code>fff7e94</code></li>
+          <li>"AI Quick Add with Gemini is a highlight" — Integrated Gemini NLP adapter into <code>/api/ai/quick-add</code> for natural language transaction input — <code>8b3ca4b</code></li>
         </ul>
 
         <h3>Self-Assessment:</h3>

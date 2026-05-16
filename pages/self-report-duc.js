@@ -173,8 +173,8 @@ export default function SelfReportDuc() {
 
         <h3>Teacher Feedback Received:</h3>
         <ul>
-          <li>"AI Quick Add with Gemini is a highlight — should be featured more prominently in the report" — Updated the detailed AI Quick Add section in the team report</li>
-          <li>"4-step Onboarding Wizard is great for UX" — Highlighted in the report and self-reports</li>
+          <li>"AI Quick Add with Gemini is a highlight" — Architected and implemented the <code>/api/ai/quick-add</code> endpoint with Gemini NLP adapter for natural language transaction parsing — <code>8b3ca4b</code></li>
+          <li>"4-step Onboarding Wizard is great for UX" — Designed the 4-step flow specification (personal info, wallet, budget, first transaction) and reviewed implementation — <code>fff7e94</code></li>
         </ul>
 
         <h3>Self-Assessment:</h3>
