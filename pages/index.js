@@ -281,6 +281,19 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
           </tbody>
         </table>
 
+        <h4>Screenshots — Main Pages</h4>
+        <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(280px, 1fr))', gap:'1rem', marginTop:'1rem'}}>
+          <div><img src="/screenshots/Screenshot 2026-05-17 at 14.47.07.png" alt="Dashboard" style={{width:'100%', borderRadius:'8px'}} /><p style={{textAlign:'center', fontSize:'0.85rem'}}>Dashboard</p></div>
+          <div><img src="/screenshots/Screenshot 2026-05-17 at 14.49.23.png" alt="Transactions" style={{width:'100%', borderRadius:'8px'}} /><p style={{textAlign:'center', fontSize:'0.85rem'}}>Transactions</p></div>
+          <div><img src="/screenshots/Screenshot 2026-05-17 at 14.49.35.png" alt="Wallets" style={{width:'100%', borderRadius:'8px'}} /><p style={{textAlign:'center', fontSize:'0.85rem'}}>Wallets</p></div>
+          <div><img src="/screenshots/Screenshot 2026-05-17 at 14.49.45.png" alt="Budgets" style={{width:'100%', borderRadius:'8px'}} /><p style={{textAlign:'center', fontSize:'0.85rem'}}>Budgets</p></div>
+          <div><img src="/screenshots/Screenshot 2026-05-17 at 14.49.57.png" alt="Goals" style={{width:'100%', borderRadius:'8px'}} /><p style={{textAlign:'center', fontSize:'0.85rem'}}>Goals</p></div>
+          <div><img src="/screenshots/Screenshot 2026-05-17 at 14.50.12.png" alt="Bills" style={{width:'100%', borderRadius:'8px'}} /><p style={{textAlign:'center', fontSize:'0.85rem'}}>Bills</p></div>
+          <div><img src="/screenshots/Screenshot 2026-05-17 at 14.50.27.png" alt="Analytics" style={{width:'100%', borderRadius:'8px'}} /><p style={{textAlign:'center', fontSize:'0.85rem'}}>Analytics</p></div>
+          <div><img src="/screenshots/Screenshot from 2026-05-17 20-58-31.png" alt="Settings" style={{width:'100%', borderRadius:'8px'}} /><p style={{textAlign:'center', fontSize:'0.85rem'}}>Settings</p></div>
+          <div><img src="/screenshots/Screenshot from 2026-05-17 20-59-39.png" alt="Onboarding" style={{width:'100%', borderRadius:'8px'}} /><p style={{textAlign:'center', fontSize:'0.85rem'}}>Onboarding</p></div>
+        </div>
+
         <h3>(b) Tailwind CSS Usage</h3>
         <p>
           The entire UI is built with <strong>Tailwind CSS v4</strong> combined with <strong>shadcn/ui</strong> (Radix UI).
