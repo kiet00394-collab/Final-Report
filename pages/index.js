@@ -405,6 +405,13 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
           </tbody>
         </table>
 
+        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'1rem', marginTop:'1rem'}}>
+          <img src="/screenshots/Screenshot from 2026-05-17 22-20-28.png" alt="Dynamic data page" style={{width:'100%', borderRadius:'8px'}} />
+          <img src="/screenshots/Screenshot from 2026-05-17 22-21-00.png" alt="Dynamic data page" style={{width:'100%', borderRadius:'8px'}} />
+          <img src="/screenshots/Screenshot from 2026-05-17 22-21-05.png" alt="Dynamic data page" style={{width:'100%', borderRadius:'8px'}} />
+          <img src="/screenshots/Screenshot from 2026-05-17 22-21-08.png" alt="Dynamic data page" style={{width:'100%', borderRadius:'8px'}} />
+        </div>
+
         {/* ── TASK 4 ── */}
         <h2>Task 4 — Optimization</h2>
 
