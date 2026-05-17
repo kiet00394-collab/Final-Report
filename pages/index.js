@@ -597,6 +597,11 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
           </tbody>
         </table>
 
+        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'1rem', marginTop:'1rem'}}>
+          <img src="/screenshots/Screenshot from 2026-05-17 21-28-54.png" alt="Teacher feedback — AI Quick Add" style={{width:'100%', borderRadius:'8px'}} />
+          <img src="/screenshots/Screenshot from 2026-05-17 21-29-59.png" alt="Teacher feedback — Onboarding Wizard" style={{width:'100%', borderRadius:'8px'}} />
+        </div>
+
         {/* ── DELIVERABLES CHECKLIST ── */}
         <h2>Deliverables Checklist</h2>
         <ul className="checklist">
