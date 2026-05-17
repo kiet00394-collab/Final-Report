@@ -69,7 +69,7 @@ export default function Home() {
 
         <h3>Key Features</h3>
         <ul>
-          <li><strong>Dashboard Budget-First:</strong> Safe-to-Spend is the first thing users see, paired with an intuitive ring chart.</li>
+
           <li><strong>Multi-Wallet:</strong> Support for multiple wallets (cash, bank, credit card, e-wallet, investment) with inter-wallet transfers.</li>
           <li><strong>AI Quick Add:</strong> Add transactions quickly using natural language (e.g., "Breakfast 35k"), auto-detects category and amount via Gemini AI.</li>
           <li><strong>Budget Management:</strong> Set category budgets, track spending percentages, receive overspend alerts.</li>
