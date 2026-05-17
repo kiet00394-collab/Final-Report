@@ -77,12 +77,12 @@ export default function Home() {
           <li><strong>Savings Goals:</strong> Set goals with deadlines, track progress, fund directly from wallets.</li>
         </ul>
 
-        <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fill, minmax(280px, 1fr))', gap:'0.5rem', marginTop:'1rem'}}>
-          <img src="/screenshots/Screenshot from 2026-05-17 21-10-23.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px'}} />
-          <img src="/screenshots/Screenshot from 2026-05-17 21-11-49.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px'}} />
-          <img src="/screenshots/Screenshot from 2026-05-17 21-12-38.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px'}} />
-          <img src="/screenshots/Screenshot from 2026-05-17 21-13-37.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px'}} />
-          <img src="/screenshots/Screenshot from 2026-05-17 21-14-38.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px'}} />
+        <div style={{display:'grid', gridTemplateColumns:'repeat(5, 1fr)', gap:'0.5rem', marginTop:'1rem'}}>
+          <img src="/screenshots/Screenshot from 2026-05-17 21-10-23.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px', aspectRatio:'16/10', objectFit:'cover'}} />
+          <img src="/screenshots/Screenshot from 2026-05-17 21-11-49.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px', aspectRatio:'16/10', objectFit:'cover'}} />
+          <img src="/screenshots/Screenshot from 2026-05-17 21-12-38.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px', aspectRatio:'16/10', objectFit:'cover'}} />
+          <img src="/screenshots/Screenshot from 2026-05-17 21-13-37.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px', aspectRatio:'16/10', objectFit:'cover'}} />
+          <img src="/screenshots/Screenshot from 2026-05-17 21-14-38.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px', aspectRatio:'16/10', objectFit:'cover'}} />
         </div>
 
         {/* ── SETUP GUIDE ── */}
