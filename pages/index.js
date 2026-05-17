@@ -75,8 +75,6 @@ export default function Home() {
           <li><strong>Budget Management:</strong> Set category budgets, track spending percentages, receive overspend alerts.</li>
           <li><strong>Recurring Bills:</strong> Track monthly/quarterly/yearly bills, payment history, automatic reminders.</li>
           <li><strong>Savings Goals:</strong> Set goals with deadlines, track progress, fund directly from wallets.</li>
-          <li><strong>Analytics:</strong> Monthly income/expense charts, category spending breakdown.</li>
-
         </ul>
 
         {/* ── SETUP GUIDE ── */}
