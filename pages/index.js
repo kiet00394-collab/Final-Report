@@ -391,7 +391,38 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
         {/* ── TASK 4 ── */}
         <h2>Task 4 — Optimization</h2>
 
-        <h3>(a) Optimizations Applied</h3>
+        <h3>(a) Lighthouse Performance Audit</h3>
+        <p>Ran Lighthouse before and after optimization. Score improved from <strong>75 → 92</strong>.</p>
+
+        <h4>Before Optimization</h4>
+        <table>
+          <thead>
+            <tr><th>Metric</th><th>Score</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Performance</td><td>75</td></tr>
+            <tr><td>Accessibility</td><td>85</td></tr>
+            <tr><td>Best Practices</td><td>90</td></tr>
+            <tr><td>SEO</td><td>82</td></tr>
+          </tbody>
+        </table>
+        <img src="/screenshots/lighthouse-before.jpeg" alt="Lighthouse before optimization — Score 75" style={{maxWidth:'100%', margin:'1rem 0'}} />
+
+        <h4>After Optimization</h4>
+        <table>
+          <thead>
+            <tr><th>Metric</th><th>Score</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Performance</td><td>92</td></tr>
+            <tr><td>Accessibility</td><td>95</td></tr>
+            <tr><td>Best Practices</td><td>96</td></tr>
+            <tr><td>SEO</td><td>90</td></tr>
+          </tbody>
+        </table>
+        <img src="/screenshots/lighthouse-after.jpg" alt="Lighthouse after optimization — Score 92" style={{maxWidth:'100%', margin:'1rem 0'}} />
+
+        <h3>(b) Optimizations Applied</h3>
         <table>
           <thead>
             <tr><th>Issue</th><th>Fix Applied</th><th>By</th></tr>
@@ -450,7 +481,7 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
           </tbody>
         </table>
 
-        <h3>(b) Error Monitoring &amp; User Analytics</h3>
+        <h3>(c) Error Monitoring &amp; User Analytics</h3>
         <p><strong>Sentry:</strong></p>
         <ul className="checklist">
           <li className="done">Sentry Node SDK integrated</li>
