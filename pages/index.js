@@ -76,9 +76,7 @@ export default function Home() {
           <li><strong>Recurring Bills:</strong> Track monthly/quarterly/yearly bills, payment history, automatic reminders.</li>
           <li><strong>Savings Goals:</strong> Set goals with deadlines, track progress, fund directly from wallets.</li>
           <li><strong>Analytics:</strong> Monthly income/expense charts, category spending breakdown.</li>
-          <li><strong>Onboarding Wizard:</strong> 4-step guide for new users: personal info, wallet setup, budget setup, first transaction.</li>
-          <li><strong>Multi-language:</strong> Vietnamese and English support.</li>
-          <li><strong>Data Safety:</strong> Soft-delete, idempotency keys, Decimal.js for financial precision, optimistic concurrency.</li>
+
         </ul>
 
         {/* ── SETUP GUIDE ── */}
