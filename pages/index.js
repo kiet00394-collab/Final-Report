@@ -78,7 +78,7 @@ export default function Home() {
         </ul>
 
         <div style={{display:'grid', gridTemplateColumns:'repeat(5, 1fr)', gap:'0.5rem', marginTop:'1rem'}}>
-          <img src="/screenshots/Screenshot from 2026-05-17 21-10-23.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px', aspectRatio:'16/10', objectFit:'cover'}} />
+          <img src="/screenshots/Screenshot from 2026-05-17 21-28-54.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px', aspectRatio:'16/10', objectFit:'cover'}} />
           <img src="/screenshots/Screenshot from 2026-05-17 21-11-49.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px', aspectRatio:'16/10', objectFit:'cover'}} />
           <img src="/screenshots/Screenshot from 2026-05-17 21-12-38.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px', aspectRatio:'16/10', objectFit:'cover'}} />
           <img src="/screenshots/Screenshot from 2026-05-17 21-13-37.png" alt="Feature screenshot" style={{width:'100%', borderRadius:'8px', aspectRatio:'16/10', objectFit:'cover'}} />
