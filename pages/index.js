@@ -374,6 +374,8 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
         </table>
         <p><em>Database designed by: Nguyen Tam Duc</em></p>
 
+        <img src="/screenshots/Screenshot from 2026-05-18 12-04-38.png" alt="ER Diagram — Finance Tracker V3" style={{maxWidth:'100%', borderRadius:'8px', marginTop:'1rem'}} />
+
         <h3>(b) Database Connection</h3>
         <ul>
           <li><strong>Server-side technology:</strong> Hono API (Node.js) embedded in Next.js App Router via catch-all route <code>/api/[[...route]]</code></li>
