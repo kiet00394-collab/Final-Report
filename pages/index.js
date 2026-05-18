@@ -24,7 +24,7 @@ export default function Home() {
             <tr><td><strong>Project Name</strong></td><td>Finance Tracker V3 — Personal Finance Management App</td></tr>
             <tr><td><strong>GitHub Repository</strong></td><td><a href="https://github.com/tducn110/Tracker_yourMoney" target="_blank" rel="noopener">github.com/tducn110/Tracker_yourMoney</a></td></tr>
             <tr><td><strong>Demo Deploy</strong></td><td><a href="https://finance-for-me-local.vercel.app" target="_blank" rel="noopener">finance-for-me-local.vercel.app</a></td></tr>
-            <tr><td><strong>Video Demo</strong></td><td><a href="https://www.youtube.com/watch?v=zAD1gF02NrU" target="_blank" rel="noopener">youtube.com/watch?v=zAD1gF02NrU</a></td></tr>
+            <tr><td><strong>Video Demo</strong></td><td><a href="https://www.youtube.com/watch?v=60dd_H9E9Q8" target="_blank" rel="noopener">youtube.com/watch?v=60dd_H9E9Q8</a></td></tr>
             <tr><td><strong>Submission Date</strong></td><td>15/05/2026</td></tr>
           </tbody>
         </table>
@@ -617,7 +617,7 @@ da139ec feat(automation): add recurring bills worker, notifications &amp; settin
           <li className="done"><strong>Source code on GitHub</strong> — <a href="https://github.com/tducn110/Tracker_yourMoney" target="_blank" rel="noopener">github.com/tducn110/Tracker_yourMoney</a></li>
           <li className="done"><strong>README.md</strong> — Setup guide, project overview, feature list with screenshots, ERD</li>
           <li className="done"><strong>ARCHITECTURE.md</strong> — Detailed system architecture documentation</li>
-          <li className="done"><strong>Video demo</strong> — <a href="https://www.youtube.com/watch?v=zAD1gF02NrU" target="_blank" rel="noopener">youtube.com/watch?v=zAD1gF02NrU</a></li>
+          <li className="done"><strong>Video demo</strong> — <a href="https://www.youtube.com/watch?v=60dd_H9E9Q8" target="_blank" rel="noopener">youtube.com/watch?v=60dd_H9E9Q8</a></li>
           <li className="done"><strong>Self-Reports</strong> — Each member committed file to <code>docs/self-reports/</code></li>
           <li className="done"><strong>Vercel Deployment</strong> — <a href="https://finance-for-me-local.vercel.app" target="_blank" rel="noopener">finance-for-me-local.vercel.app</a></li>
         </ul>
